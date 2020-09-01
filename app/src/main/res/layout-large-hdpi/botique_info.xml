@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_gravity="center" android:layout_height="900px"
+	android:layout_width="600px" android:soundEffectsEnabled="false">
+	<FrameLayout android:layout_marginTop="94px"
+		android:layout_width="600px" android:layout_gravity="top|center_horizontal"
+		android:layout_height="806px" android:soundEffectsEnabled="false">
+		<ImageView android:id="@+id/BotiqueTipView"
+			android:background="@drawable/myboutiqueinfo" android:layout_gravity="center"
+			android:layout_width="563px" android:layout_height="431px" android:soundEffectsEnabled="false"></ImageView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/BotiqueEarningView"
+			android:textColor="@color/white" android:layout_gravity="top|left" android:layout_marginTop="319px"
+			android:layout_marginLeft="345px" android:soundEffectsEnabled="false" android:textSize="38px" android:textScaleX="0.8"></TextView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="@color/white"
+			android:layout_gravity="top|left"
+			android:layout_marginLeft="345px" android:id="@+id/BotiqueStoreView" android:soundEffectsEnabled="false" android:textSize="38px" android:textScaleX="0.8" android:layout_marginTop="398px"></TextView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="@color/white"
+			android:layout_gravity="top|left"
+			android:layout_marginLeft="345px" android:id="@+id/BotiqueCustomerView" android:soundEffectsEnabled="false" android:layout_marginTop="474px" android:textSize="38px" android:textScaleX="0.8"></TextView>
+		<ImageButton android:background="@drawable/botiqueinfo_ok"
+			android:layout_marginTop="525px" android:layout_gravity="top|right"
+			android:layout_marginRight="75px" android:layout_height="75px"
+			android:id="@+id/BotiqueInfoOkButton" android:layout_width="128px" android:soundEffectsEnabled="false"></ImageButton>
+	</FrameLayout>
+</FrameLayout>

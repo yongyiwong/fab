@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_gravity="center" android:layout_height="1200px"
+	android:layout_width="800px" android:soundEffectsEnabled="false">
+	<FrameLayout android:layout_width="fill_parent"
+		android:background="@drawable/home_bar" android:soundEffectsEnabled="false"
+		android:layout_height="125px" android:id="@+id/StatusBarLayout">
+		<ImageView android:background="@drawable/home_mylife_title"
+			android:soundEffectsEnabled="false" android:layout_gravity="top|left"
+			android:layout_width="150px" android:layout_height="53px"
+			android:layout_marginTop="15px"></ImageView>
+		<com.miinu.FabLife.ViewComponent.StatusBarLevel
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="188px" android:layout_height="53px"
+			android:layout_marginTop="15px" android:id="@+id/StatusLevelView"
+			android:layout_marginLeft="158px"></com.miinu.FabLife.ViewComponent.StatusBarLevel>
+		<com.miinu.FabLife.ViewComponent.StatusBarEnergy
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="173px" android:layout_height="65px"
+			android:layout_marginTop="10px" android:id="@+id/StatusEnergyView"
+			android:layout_marginLeft="348px"></com.miinu.FabLife.ViewComponent.StatusBarEnergy>
+		<com.miinu.FabLife.ViewComponent.StatusBarCoin
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="150px" android:layout_height="50px"
+			android:layout_marginTop="18px" android:id="@+id/StatusCoinView"
+			android:layout_marginLeft="523px"></com.miinu.FabLife.ViewComponent.StatusBarCoin>
+		<com.miinu.FabLife.ViewComponent.StatusBarCash
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="125px" android:layout_height="50px"
+			android:layout_marginTop="18px" android:id="@+id/StatusCashView"
+			android:layout_marginLeft="675px"></com.miinu.FabLife.ViewComponent.StatusBarCash>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:editable="false"
+			android:singleLine="true" android:layout_gravity="top|left"
+			android:textColor="@color/black" android:textSize="40px"
+			android:layout_marginLeft="150px" android:soundEffectsEnabled="false"
+			android:textScaleX="0.8" android:layout_marginTop="80px"
+			android:id="@+id/StatusCaptionView"></TextView>
+		<TextView android:layout_width="125px" android:gravity="left"
+			android:layout_height="wrap_content" android:editable="false"
+			android:singleLine="true" android:layout_gravity="top|center_horizontal"
+			android:textColor="@color/black" android:layout_marginLeft="275px"
+			android:textScaleX="0.8" android:layout_marginTop="80px"
+			android:soundEffectsEnabled="false" android:textSize="40px"
+			android:id="@+id/StatusTimerView"></TextView>
+	</FrameLayout>
+	<FrameLayout android:background="@drawable/boutique_background"
+		android:layout_width="800px" android:layout_height="1075px"
+		android:layout_gravity="top|center_horizontal"
+		android:layout_marginTop="125px" android:soundEffectsEnabled="false">
+		<ImageView android:layout_gravity="top|right"
+			android:layout_width="175px" android:layout_height="183px"
+			android:layout_marginTop="400px" android:id="@+id/BotiqueArrowView"
+			android:soundEffectsEnabled="false"></ImageView>
+		<ImageButton android:background="@drawable/botique_addastore"
+			android:id="@+id/BotiqueAddStroreButton" android:layout_gravity="bottom|right"
+			android:layout_height="150px" android:layout_width="150px"
+			android:layout_marginRight="13px" android:layout_marginBottom="325px"
+			android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:background="@drawable/boutique_info"
+			android:layout_gravity="bottom|right" android:layout_height="150px"
+			android:layout_width="150px" android:layout_marginBottom="150px"
+			android:layout_marginRight="13px" android:id="@+id/BotiqueInfoButton"
+			android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:background="@drawable/gohome_btn"
+			android:id="@+id/BotiqueGoHomeButton" android:layout_gravity="bottom|right"
+			android:layout_marginBottom="13px" android:layout_height="100px"
+			android:layout_width="100px" android:layout_marginRight="38px"
+			android:soundEffectsEnabled="false"></ImageButton>
+		<ScrollView android:layout_gravity="top|left"
+			android:id="@+id/BotiqueBuildingScrollView" android:scrollbars="none"
+			android:layout_width="625px" android:fadingEdge="none"
+			android:layout_height="1075px" android:background="@drawable/building_bg">
+			<LinearLayout android:id="@+id/BotiqueShopBuildLayout"
+				android:orientation="vertical" android:layout_width="625px"
+				android:fadingEdge="none" android:layout_height="wrap_content">
+				<FrameLayout android:layout_width="625px"
+					android:layout_height="268px" android:id="@+id/Shop10Layout">
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="10px" android:id="@+id/BotiqueShopView27"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="215px" android:id="@+id/BotiqueShopView28"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="420px" android:id="@+id/BotiqueShopView29"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+				</FrameLayout>
+				<FrameLayout android:layout_width="625px"
+					android:layout_height="268px" android:id="@+id/Shop09Layout">
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="10px" android:id="@+id/BotiqueShopView24"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="215px" android:id="@+id/BotiqueShopView25"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="420px" android:id="@+id/BotiqueShopView26"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+				</FrameLayout>
+				<FrameLayout android:layout_width="625px"
+					android:layout_height="268px" android:id="@+id/Shop08Layout">
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="10px" android:id="@+id/BotiqueShopView21"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="215px" android:id="@+id/BotiqueShopView22"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="420px" android:id="@+id/BotiqueShopView23"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+				</FrameLayout>
+				<FrameLayout android:layout_width="625px"
+					android:layout_height="268px" android:id="@+id/Shop07Layout">
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="10px" android:id="@+id/BotiqueShopView18"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="215px" android:id="@+id/BotiqueShopView19"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="420px" android:id="@+id/BotiqueShopView20"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+				</FrameLayout>
+				<FrameLayout android:layout_width="625px"
+					android:layout_height="268px" android:id="@+id/Shop06Layout">
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="10px" android:id="@+id/BotiqueShopView15"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="215px" android:id="@+id/BotiqueShopView16"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="420px" android:id="@+id/BotiqueShopView17"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+				</FrameLayout>
+				<FrameLayout android:layout_width="625px"
+					android:layout_height="268px" android:id="@+id/Shop05Layout">
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="10px" android:id="@+id/BotiqueShopView12"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="215px" android:id="@+id/BotiqueShopView13"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="420px" android:id="@+id/BotiqueShopView14"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+				</FrameLayout>
+				<FrameLayout android:layout_width="625px"
+					android:layout_height="268px" android:id="@+id/Shop04Layout">
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="10px" android:id="@+id/BotiqueShopView09"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="215px" android:id="@+id/BotiqueShopView10"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="420px" android:id="@+id/BotiqueShopView11"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+				</FrameLayout>
+				<FrameLayout android:layout_width="625px"
+					android:layout_height="268px" android:id="@+id/Shop03Layout">
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="10px" android:id="@+id/BotiqueShopView06"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="215px" android:id="@+id/BotiqueShopView07"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="420px" android:id="@+id/BotiqueShopView08"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+				</FrameLayout>
+				<FrameLayout android:layout_width="625px"
+					android:layout_height="268px" android:id="@+id/Shop02Layout">
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="10px" android:id="@+id/BotiqueShopView03"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="215px" android:id="@+id/BotiqueShopView04"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="420px" android:id="@+id/BotiqueShopView05"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+				</FrameLayout>
+				<FrameLayout android:layout_width="625px"
+					android:layout_height="268px" android:id="@+id/Shop01Layout">
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="10px" android:id="@+id/BotiqueShopView01"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+					<View android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="215px" android:background="@drawable/default_boutique_door"></View>
+					<com.miinu.FabLife.ViewComponent.BotiqueItemView
+						android:layout_gravity="left|center_vertical"
+						android:layout_height="240px" android:layout_width="190px"
+						android:layout_marginLeft="420px" android:id="@+id/BotiqueShopView02"></com.miinu.FabLife.ViewComponent.BotiqueItemView>
+				</FrameLayout>
+			</LinearLayout>
+		</ScrollView>
+
+	</FrameLayout>
+</FrameLayout>

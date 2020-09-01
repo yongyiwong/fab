@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_gravity="center" android:layout_height="1200px"
+	android:layout_width="800px" android:id="@+id/FlirtLayout"
+	android:background="@color/black">
+	<ImageView android:layout_height="968px"
+		android:layout_width="800px" android:layout_gravity="bottom"
+		android:id="@+id/ManView"></ImageView>
+	<ImageView android:layout_width="168px" android:layout_height="160px"
+		android:id="@+id/HeartView01" android:layout_gravity="top|left"
+		android:layout_marginTop="25px" android:layout_marginLeft="100px"></ImageView>
+	<ImageView android:layout_width="168px" android:layout_height="160px"
+		android:layout_gravity="top|left" android:id="@+id/HeartView02"
+		android:layout_marginLeft="300px" android:layout_marginTop="200px"></ImageView>
+	<ImageView android:layout_width="168px" android:layout_height="160px"
+		android:layout_gravity="top|left" android:layout_marginLeft="550px"
+		android:layout_marginTop="50px" android:id="@+id/HeartView03"></ImageView>
+	<ImageView android:layout_width="168px" android:layout_height="160px"
+		android:layout_gravity="top|left" android:layout_marginLeft="50px"
+		android:layout_marginTop="450px" android:id="@+id/HeartView04"></ImageView>
+	<ImageView android:layout_width="168px" android:layout_height="160px"
+		android:layout_gravity="top|left" android:layout_marginTop="550px"
+		android:layout_marginLeft="350px" android:id="@+id/HeartView05"></ImageView>
+	<ImageView android:layout_width="168px" android:layout_height="160px"
+		android:layout_gravity="top|left" android:layout_marginLeft="475px"
+		android:layout_marginTop="375px" android:id="@+id/HeartView06"></ImageView>
+	<ImageView android:layout_width="168px" android:layout_height="160px"
+		android:layout_gravity="top|left" android:layout_marginTop="800px"
+		android:layout_marginLeft="150px" android:id="@+id/HeartView07"></ImageView>
+	<ImageView android:layout_width="168px" android:layout_height="160px"
+		android:layout_gravity="top|left" android:layout_marginTop="1050px"
+		android:layout_marginLeft="300px" android:id="@+id/HeartView08"></ImageView>
+	<ImageButton android:layout_width="313px"
+		android:layout_height="130px" android:background="@drawable/flirt_accept"
+		android:id="@+id/FlirtThankButton" android:layout_gravity="top|right"
+		android:layout_marginRight="50px" android:layout_marginTop="750px"
+		android:soundEffectsEnabled="false"></ImageButton>
+	<ImageButton android:layout_width="313px"
+		android:layout_height="130px" android:background="@drawable/flirt_nothank"
+		android:id="@+id/FlirtNoThankButton" android:layout_gravity="top|right"
+		android:layout_marginRight="50px" android:layout_marginTop="950px"
+		android:soundEffectsEnabled="false"></ImageButton>
+	<TextView android:layout_height="wrap_content" android:id="@+id/FlirtTextView"
+		android:textColor="@color/white" android:textSize="50px"
+		android:layout_gravity="top|center_horizontal"
+		android:layout_marginTop="50px" android:layout_width="600px"></TextView>
+</FrameLayout>

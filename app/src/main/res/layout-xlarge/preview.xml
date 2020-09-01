@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="800px" android:layout_gravity="center"
+	android:layout_height="1200px">
+	<FrameLayout android:id="@+id/FrameLayout01"
+		android:background="@drawable/dressing_room_bg"
+		android:layout_gravity="top|center_horizontal" android:layout_width="800px"
+		android:layout_marginTop="225px" android:layout_height="975px">
+		<com.miinu.FabLife.ViewComponent.ItemPreview
+			android:id="@+id/ItemPreview" android:layout_gravity="top|center_horizontal"
+			android:layout_height="925px" android:layout_marginTop="50px"
+			android:layout_width="600px">
+		</com.miinu.FabLife.ViewComponent.ItemPreview>
+		<ImageButton android:id="@+id/ImageButton01"
+			android:layout_width="70px" android:layout_height="143px"
+			android:background="@drawable/dressing_room_door"
+			android:layout_gravity="bottom|right" android:layout_marginRight="25px"
+			android:layout_marginBottom="25px" android:soundEffectsEnabled="false"></ImageButton>
+	</FrameLayout>
+</FrameLayout>

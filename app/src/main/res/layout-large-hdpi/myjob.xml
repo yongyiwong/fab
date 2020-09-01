@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="600px" android:layout_gravity="center"
+	android:layout_height="900px" android:background="@drawable/myjob_background">
+	<FrameLayout android:layout_width="fill_parent"
+		android:background="@drawable/home_bar" android:soundEffectsEnabled="false"
+		android:layout_height="94px" android:id="@+id/StatusBarLayout">
+		<ImageView android:soundEffectsEnabled="false"
+			android:layout_gravity="top|left" android:layout_marginTop="11px"
+			android:background="@drawable/home_myjob_title" android:layout_width="118px"
+			android:layout_height="41px"></ImageView>
+		<com.miinu.FabLife.ViewComponent.StatusBarLevel
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="141px" android:layout_height="39px"
+			android:layout_marginTop="11px" android:id="@+id/StatusLevelView"
+			android:layout_marginLeft="118px"></com.miinu.FabLife.ViewComponent.StatusBarLevel>
+		<com.miinu.FabLife.ViewComponent.StatusBarEnergy
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="129px" android:layout_height="49px"
+			android:layout_marginTop="8px" android:id="@+id/StatusEnergyView"
+			android:layout_marginLeft="261px"></com.miinu.FabLife.ViewComponent.StatusBarEnergy>
+		<com.miinu.FabLife.ViewComponent.StatusBarCoin
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="113px" android:layout_height="38px"
+			android:layout_marginTop="13px" android:id="@+id/StatusCoinView"
+			android:layout_marginLeft="392px"></com.miinu.FabLife.ViewComponent.StatusBarCoin>
+		<com.miinu.FabLife.ViewComponent.StatusBarCash
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="94px" android:layout_height="38px"
+			android:layout_marginTop="13px" android:id="@+id/StatusCashView"
+			android:layout_marginLeft="506px"></com.miinu.FabLife.ViewComponent.StatusBarCash>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:editable="false"
+			android:singleLine="true" android:layout_gravity="top|left"
+			android:textColor="@color/black" android:textSize="30px"
+			android:layout_marginLeft="113px" android:soundEffectsEnabled="false"
+			android:textScaleX="0.8" android:layout_marginTop="60px"
+			android:id="@+id/StatusCaptionView"></TextView>
+		<TextView android:layout_width="94px" android:gravity="left"
+			android:layout_height="wrap_content" android:editable="false"
+			android:singleLine="true" android:layout_gravity="top|center_horizontal"
+			android:textColor="@color/black" android:layout_marginLeft="206px"
+			android:textScaleX="0.8" android:layout_marginTop="60px"
+			android:soundEffectsEnabled="false" android:textSize="30px"
+			android:id="@+id/StatusTimerView"></TextView>
+	</FrameLayout>
+	<com.miinu.FabLife.ViewComponent.AvatarView
+		android:layout_gravity="top|right" android:layout_height="713px"
+		android:layout_width="450px" android:layout_marginRight="-113px"
+		android:layout_marginTop="131px" android:id="@+id/MyJobAvatarView"></com.miinu.FabLife.ViewComponent.AvatarView>
+	<FrameLayout android:layout_marginTop="94px"
+		android:layout_gravity="top|center_horizontal" android:layout_width="600px"
+		android:layout_height="806px">
+		<FrameLayout android:background="@drawable/job_bar01"
+			android:layout_gravity="top|left" android:layout_marginLeft="19px"
+			android:layout_width="416px" android:layout_height="124px"
+			android:layout_marginTop="75px">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:editable="false"
+				android:singleLine="true" android:textColor="@color/black"
+				android:layout_gravity="top|left" android:layout_marginLeft="11px"
+				android:id="@+id/JobName01" android:layout_marginTop="8px"
+				android:textSize="26px"></TextView>
+			<TextView android:editable="false" android:singleLine="true"
+				android:textColor="@color/black" android:layout_gravity="top|left"
+				android:gravity="center" android:id="@+id/Energy01"
+				android:textSize="23px" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:textScaleX="0.8" android:layout_marginTop="45px" android:layout_marginLeft="98px"></TextView>
+			<TextView android:editable="false" android:singleLine="true"
+				android:textColor="@color/black" android:layout_gravity="top|left"
+				android:gravity="center" android:id="@+id/Coin01" android:textSize="23px"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:textScaleX="0.8" android:layout_marginTop="75px" android:layout_marginLeft="98px"></TextView>
+			<com.miinu.FabLife.ViewComponent.CustomProgress
+				android:layout_gravity="top|left" android:layout_width="150px"
+				android:layout_marginLeft="158px" android:id="@+id/Progress01"
+				android:layout_marginTop="45px" android:layout_height="75px"></com.miinu.FabLife.ViewComponent.CustomProgress>
+			<ImageButton android:layout_height="94px"
+				android:layout_width="94px" android:layout_marginLeft="308px"
+				android:id="@+id/DoJobButton01" android:background="@drawable/do_job_btn"
+				android:layout_gravity="left|center_vertical"
+				android:soundEffectsEnabled="false"></ImageButton>
+		</FrameLayout>
+		<FrameLayout android:background="@drawable/job_bar01"
+			android:layout_gravity="top|left" android:layout_marginLeft="19px"
+			android:layout_height="124px" android:layout_width="416px"
+			android:layout_marginTop="225px">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:editable="false"
+				android:singleLine="true" android:textColor="@color/black"
+				android:layout_gravity="top|left" android:layout_marginLeft="11px"
+				android:id="@+id/JobName02" android:layout_marginTop="8px"
+				android:textSize="26px"></TextView>
+			<TextView android:editable="false" android:singleLine="true"
+				android:textColor="@color/black" android:layout_gravity="top|left"
+				android:gravity="center" android:id="@+id/Energy02"
+				android:textSize="23px" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:textScaleX="0.8" android:layout_marginTop="45px" android:layout_marginLeft="98px"></TextView>
+			<TextView android:editable="false" android:singleLine="true"
+				android:textColor="@color/black" android:layout_gravity="top|left"
+				android:gravity="center" android:id="@+id/Coin02" android:textSize="23px"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:textScaleX="0.8" android:layout_marginTop="75px" android:layout_marginLeft="98px"></TextView>
+			<com.miinu.FabLife.ViewComponent.CustomProgress
+				android:layout_gravity="top|left" android:layout_width="150px"
+				android:layout_marginLeft="158px" android:id="@+id/Progress02"
+				android:layout_marginTop="45px" android:layout_height="75px"></com.miinu.FabLife.ViewComponent.CustomProgress>
+			<ImageButton android:layout_height="94px"
+				android:layout_width="94px" android:layout_marginLeft="308px"
+				android:id="@+id/DoJobButton02" android:background="@drawable/do_job_btn"
+				android:layout_gravity="left|center_vertical"
+				android:soundEffectsEnabled="false"></ImageButton>
+		</FrameLayout>
+		<FrameLayout android:background="@drawable/job_bar01"
+			android:layout_gravity="top|left" android:layout_marginLeft="19px"
+			android:layout_marginTop="375px" android:layout_height="124px"
+			android:layout_width="416px">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:editable="false"
+				android:singleLine="true" android:textColor="@color/black"
+				android:layout_gravity="top|left" android:layout_marginLeft="11px"
+				android:id="@+id/JobName03" android:layout_marginTop="8px"
+				android:textSize="26px"></TextView>
+			<TextView android:editable="false" android:singleLine="true"
+				android:textColor="@color/black" android:layout_gravity="top|left"
+				android:gravity="center" android:id="@+id/Energy03"
+				android:textSize="23px" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:textScaleX="0.8" android:layout_marginTop="45px" android:layout_marginLeft="98px"></TextView>
+			<TextView android:editable="false" android:singleLine="true"
+				android:textColor="@color/black" android:layout_gravity="top|left"
+				android:gravity="center" android:id="@+id/Coin03" android:textSize="23px"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:textScaleX="0.8" android:layout_marginTop="75px" android:layout_marginLeft="98px"></TextView>
+			<com.miinu.FabLife.ViewComponent.CustomProgress
+				android:layout_gravity="top|left" android:layout_width="150px"
+				android:layout_marginLeft="158px" android:id="@+id/Progress03"
+				android:layout_marginTop="45px" android:layout_height="75px"></com.miinu.FabLife.ViewComponent.CustomProgress>
+			<ImageButton android:layout_height="94px"
+				android:layout_width="94px" android:layout_marginLeft="308px"
+				android:id="@+id/DoJobButton03" android:background="@drawable/do_job_btn"
+				android:layout_gravity="left|center_vertical"
+				android:soundEffectsEnabled="false"></ImageButton>
+		</FrameLayout>
+		<FrameLayout android:background="@drawable/job_bar01"
+			android:layout_gravity="top|left" android:layout_marginLeft="19px"
+			android:layout_height="124px" android:layout_width="416px"
+			android:layout_marginTop="525px">
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:editable="false"
+				android:singleLine="true" android:textColor="@color/black"
+				android:layout_gravity="top|left" android:layout_marginLeft="11px"
+				android:id="@+id/JobName04" android:layout_marginTop="8px"
+				android:textSize="26px"></TextView>
+			<TextView android:editable="false" android:singleLine="true"
+				android:textColor="@color/black" android:layout_gravity="top|left"
+				android:gravity="center" android:id="@+id/Energy04"
+				android:textSize="23px" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:textScaleX="0.8" android:layout_marginTop="45px" android:layout_marginLeft="98px"></TextView>
+			<TextView android:editable="false" android:singleLine="true"
+				android:textColor="@color/black" android:layout_gravity="top|left"
+				android:gravity="center" android:id="@+id/Coin04" android:textSize="23px"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:textScaleX="0.8" android:layout_marginTop="75px" android:layout_marginLeft="98px"></TextView>
+			<com.miinu.FabLife.ViewComponent.CustomProgress
+				android:layout_gravity="top|left" android:layout_width="150px"
+				android:layout_marginLeft="158px" android:id="@+id/Progress04"
+				android:layout_marginTop="45px" android:layout_height="75px"></com.miinu.FabLife.ViewComponent.CustomProgress>
+			<ImageButton android:layout_height="94px"
+				android:layout_width="94px" android:layout_marginLeft="308px"
+				android:id="@+id/DoJobButton04" android:background="@drawable/do_job_btn"
+				android:layout_gravity="left|center_vertical"
+				android:soundEffectsEnabled="false"></ImageButton>
+		</FrameLayout>
+		<ImageButton android:layout_gravity="bottom|left"
+			android:layout_marginLeft="19px" android:id="@+id/Level1Button"
+			android:layout_height="75px" android:layout_marginBottom="19px"
+			android:layout_width="64px" android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:layout_gravity="bottom|left"
+			android:id="@+id/Level5Button" android:layout_height="75px"
+			android:layout_marginBottom="19px" android:layout_marginLeft="90px"
+			android:layout_width="64px" android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:layout_gravity="bottom|left"
+			android:id="@+id/Level9Button" android:layout_marginBottom="19px"
+			android:layout_height="75px" android:layout_width="64px"
+			android:layout_marginLeft="161px" android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:layout_gravity="bottom|left"
+			android:id="@+id/Level13Button" android:layout_height="75px"
+			android:layout_marginBottom="19px" android:layout_width="64px"
+			android:layout_marginLeft="233px" android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:layout_gravity="bottom|left"
+			android:id="@+id/Level17Button" android:layout_height="75px"
+			android:layout_marginBottom="19px" android:layout_width="64px"
+			android:layout_marginLeft="304px" android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:layout_gravity="bottom|left"
+			android:layout_height="75px" android:layout_marginBottom="19px"
+			android:layout_width="64px" android:id="@+id/Level26Button"
+			android:layout_marginLeft="375px" android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:layout_height="94px"
+			android:layout_width="94px" android:layout_gravity="bottom|right"
+			android:layout_marginBottom="19px" android:layout_marginRight="19px"
+			android:background="@drawable/gohome_btn" android:id="@+id/MyJobGoHomeButton"
+			android:soundEffectsEnabled="false"></ImageButton>
+		<ImageView android:layout_marginLeft="169px"
+			android:background="@drawable/job_hint" android:layout_height="188px"
+			android:layout_marginTop="188px" android:id="@+id/ImageView01"
+			android:layout_width="341px" android:layout_gravity="top|left"
+			android:visibility="gone"></ImageView>
+	</FrameLayout>
+</FrameLayout>

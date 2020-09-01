@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/FrameLayout01"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="320sp" android:layout_height="480sp"
+	android:layout_gravity="center">
+	<com.miinu.FabLife.ViewComponent.PageFlipView
+		android:id="@+id/SurfaceView01" android:layout_height="fill_parent"
+		android:layout_width="fill_parent"></com.miinu.FabLife.ViewComponent.PageFlipView>
+	<ImageButton android:background="@drawable/lookbook_setting_ico"
+		android:id="@+id/LookBookSettingButton" android:layout_gravity="bottom|right"
+		android:layout_marginRight="10sp" android:soundEffectsEnabled="false"
+		android:layout_width="31sp" android:layout_height="31sp"
+		android:layout_marginBottom="4sp" android:visibility="gone"></ImageButton>
+	<FrameLayout android:id="@+id/FrameLayout02"
+		android:layout_height="fill_parent" android:layout_width="fill_parent"
+		android:visibility="gone">
+		<ImageButton android:background="@drawable/lookbook_delete_button"
+			android:layout_gravity="top|right" android:layout_marginTop="70sp"
+			android:layout_marginRight="10sp" android:id="@+id/LookBookDeleteButton"
+			android:soundEffectsEnabled="false" android:layout_height="14sp"
+			android:layout_width="14sp"></ImageButton>
+		<FrameLayout android:id="@+id/FrameLayout03"
+			android:layout_height="fill_parent" android:layout_width="fill_parent">
+			<ImageButton android:background="@drawable/lookbook_setting_ico"
+				android:id="@+id/LookBookLayoutSettingButton"
+				android:layout_gravity="bottom|right" android:soundEffectsEnabled="false"
+				android:layout_width="31sp" android:layout_height="31sp"
+				android:layout_marginRight="12sp" android:layout_marginBottom="160sp"></ImageButton>
+			<ImageButton android:background="@drawable/lookbook_facebook"
+				android:id="@+id/LookBookFaceBookButton" android:layout_marginRight="15sp"
+				android:layout_gravity="bottom|right" android:soundEffectsEnabled="false"
+				android:layout_width="23sp" android:layout_height="22sp"
+				android:layout_marginBottom="124sp"></ImageButton>
+			<ImageButton android:background="@drawable/lookbook_twitter"
+				android:id="@+id/LookBookTwiterButton" android:layout_marginRight="15sp"
+				android:layout_gravity="bottom|right" android:soundEffectsEnabled="false"
+				android:layout_height="22sp" android:layout_width="22sp"
+				android:layout_marginBottom="94sp"></ImageButton>
+			<ImageButton android:background="@drawable/lookbook_tumblr"
+				android:id="@+id/LookBookThumbButton" android:layout_marginRight="14sp"
+				android:layout_gravity="bottom|right" android:soundEffectsEnabled="false"
+				android:layout_height="23sp" android:layout_width="23sp"
+				android:layout_marginBottom="62sp"></ImageButton>
+			<ImageButton android:background="@drawable/lookbook_saveimage"
+				android:id="@+id/LookBookSaveButton" android:layout_marginRight="11sp"
+				android:layout_gravity="bottom|right" android:layout_marginBottom="34sp"
+				android:soundEffectsEnabled="false" android:layout_width="28sp"
+				android:layout_height="23sp"></ImageButton>
+			<ImageButton android:background="@drawable/lookbook_mail"
+				android:layout_marginRight="12sp" android:id="@+id/LookBookMailButton"
+				android:layout_gravity="bottom|right" android:soundEffectsEnabled="false"
+				android:layout_width="28sp" android:layout_height="19sp"
+				android:layout_marginBottom="8sp"></ImageButton>
+			<ImageButton android:background="@drawable/lookbook_last"
+				android:id="@+id/LookBookLastButton" android:layout_gravity="bottom|right"
+				android:layout_marginRight="60sp" android:soundEffectsEnabled="false"
+				android:layout_width="31sp" android:layout_height="18sp"
+				android:layout_marginBottom="8sp"></ImageButton>
+			<ImageButton android:background="@drawable/shop_next"
+				android:id="@+id/LookBookNextButton" android:layout_gravity="bottom|right"
+				android:layout_marginRight="110sp" android:soundEffectsEnabled="false"
+				android:layout_height="26sp" android:layout_width="16sp"
+				android:layout_marginBottom="5sp"></ImageButton>
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:editable="false"
+				android:singleLine="true" android:layout_gravity="bottom|center_horizontal"
+				android:textColor="@color/white" android:id="@+id/LookBookPageView"
+				android:textSize="16sp" android:layout_marginBottom="10sp"
+				android:textScaleX="0.8"></TextView>
+			<ImageButton android:background="@drawable/shop_prev"
+				android:id="@+id/LookBookPrevButton" android:layout_gravity="bottom|left"
+				android:layout_marginLeft="110sp" android:soundEffectsEnabled="false"
+				android:layout_height="26sp" android:layout_width="16sp"
+				android:layout_marginBottom="5sp"></ImageButton>
+			<ImageButton android:background="@drawable/lookbook_first"
+				android:id="@+id/LookBookFirstButton" android:layout_gravity="bottom|left"
+				android:layout_marginLeft="60sp" android:soundEffectsEnabled="false"
+				android:layout_height="18sp" android:layout_width="31sp"
+				android:layout_marginBottom="8sp"></ImageButton>
+			<ImageButton android:background="@drawable/back"
+				android:id="@+id/LookBookBackButton" android:layout_gravity="bottom|left"
+				android:layout_marginLeft="10sp" android:soundEffectsEnabled="false"
+				android:layout_height="39sp" android:layout_width="36sp"
+				android:layout_marginBottom="4sp"></ImageButton>
+		</FrameLayout>
+	</FrameLayout>
+</FrameLayout>

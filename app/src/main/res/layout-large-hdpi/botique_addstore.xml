@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="600px" android:layout_height="900px"
+	android:layout_gravity="center" android:soundEffectsEnabled="false">
+	<FrameLayout android:layout_width="fill_parent"
+		android:background="@drawable/home_bar" android:soundEffectsEnabled="false"
+		android:layout_height="94px" android:id="@+id/StatusBarLayout">
+		<ImageView android:background="@drawable/home_mylife_title"
+			android:soundEffectsEnabled="false" android:layout_gravity="top|left"
+			android:layout_width="113px" android:layout_height="39px"
+			android:layout_marginTop="11px"></ImageView>
+		<com.miinu.FabLife.ViewComponent.StatusBarLevel
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="141px" android:layout_height="39px"
+			android:layout_marginTop="11px" android:id="@+id/StatusLevelView"
+			android:layout_marginLeft="118px"></com.miinu.FabLife.ViewComponent.StatusBarLevel>
+		<com.miinu.FabLife.ViewComponent.StatusBarEnergy
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="129px" android:layout_height="49px"
+			android:layout_marginTop="8px" android:id="@+id/StatusEnergyView"
+			android:layout_marginLeft="261px"></com.miinu.FabLife.ViewComponent.StatusBarEnergy>
+		<com.miinu.FabLife.ViewComponent.StatusBarCoin
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="113px" android:layout_height="38px"
+			android:layout_marginTop="13px" android:id="@+id/StatusCoinView"
+			android:layout_marginLeft="392px"></com.miinu.FabLife.ViewComponent.StatusBarCoin>
+		<com.miinu.FabLife.ViewComponent.StatusBarCash
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="94px" android:layout_height="38px"
+			android:layout_marginTop="13px" android:id="@+id/StatusCashView"
+			android:layout_marginLeft="506px"></com.miinu.FabLife.ViewComponent.StatusBarCash>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:editable="false"
+			android:singleLine="true" android:layout_gravity="top|left"
+			android:textColor="@color/black" android:textSize="30px"
+			android:layout_marginLeft="113px" android:soundEffectsEnabled="false"
+			android:textScaleX="0.8" android:layout_marginTop="60px"
+			android:id="@+id/StatusCaptionView"></TextView>
+		<TextView android:layout_width="94px" android:gravity="left"
+			android:layout_height="wrap_content" android:editable="false"
+			android:singleLine="true" android:layout_gravity="top|center_horizontal"
+			android:textColor="@color/black" android:layout_marginLeft="206px"
+			android:textScaleX="0.8" android:layout_marginTop="60px"
+			android:soundEffectsEnabled="false" android:textSize="30px"
+			android:id="@+id/StatusTimerView"></TextView>
+	</FrameLayout>
+	<FrameLayout android:layout_width="600px"
+		android:layout_gravity="top|center_horizontal"
+		android:layout_marginTop="94px" android:layout_height="806px"
+		android:soundEffectsEnabled="false">
+		<SurfaceView android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:id="@+id/BotiqueShopSurface"
+			android:soundEffectsEnabled="false"></SurfaceView>
+		<LinearLayout android:layout_height="38px"
+			android:layout_width="375px" android:layout_gravity="bottom|center_horizontal"
+			android:layout_marginBottom="19px" android:id="@+id/BotiquePageLayout"
+			android:orientation="horizontal" android:gravity="center"
+			android:soundEffectsEnabled="false"></LinearLayout>
+		<ImageButton android:layout_marginRight="19px"
+			android:layout_gravity="bottom|right" android:background="@drawable/backbutton"
+			android:id="@+id/BotiqueBackButton" android:layout_marginBottom="8px"
+			android:soundEffectsEnabled="false" android:layout_width="75px"
+			android:layout_height="88px"></ImageButton>
+	</FrameLayout>
+</FrameLayout>

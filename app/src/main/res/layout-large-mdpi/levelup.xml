@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="680px" android:layout_height="1020px"
+	android:layout_gravity="center">
+	<ImageView android:background="@drawable/levelup"
+		android:layout_gravity="top|center_horizontal" android:layout_width="595px"
+		android:layout_height="425px" android:id="@+id/LevelUpBgView" android:layout_marginTop="329px"></ImageView>
+	<TextView android:textColor="@color/white" android:gravity="center"
+		android:layout_gravity="top|center_horizontal" android:layout_width="510px" android:layout_height="170px"
+		android:id="@+id/LevelUpMsgView" android:textScaleX="0.8" android:textSize="47px" android:layout_marginTop="457px"></TextView>
+	<ImageButton android:background="@drawable/levelup_ok"
+		android:layout_gravity="top|center_horizontal" android:id="@+id/LevelUpOkButton" android:soundEffectsEnabled="false" android:layout_width="149px" android:layout_height="81px" android:layout_marginTop="648px"></ImageButton>
+</FrameLayout>

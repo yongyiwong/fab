@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout android:id="@+id/FrameLayout01"
+	xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="800px" android:layout_height="1200px" android:layout_gravity="center">
+	<ImageView android:id="@+id/ImageView01" android:background="@drawable/instruction_page01"
+		android:layout_width="600px" android:layout_height="750px"
+		android:layout_gravity="center"></ImageView>
+	<ImageButton android:id="@+id/InstructionStartButton"
+		android:background="@drawable/instruction_page01_start_btn"
+		android:layout_height="100px" android:layout_width="250px"
+		android:layout_gravity="bottom|center_horizontal" android:layout_marginBottom="275px" android:soundEffectsEnabled="false"></ImageButton>
+</FrameLayout>

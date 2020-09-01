@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<string name="app_name">FabLife</string>
+	<string name="setting_music">Music</string>
+	<string name="setting_effect">Sound Effects</string>
+	<string name="Job01">New York Summer Intern</string>
+	<string name="Job02">Store Assistant</string>
+	<string name="Job03">Store Manager</string>
+	<string name="Job04">Store Coordinator</string>
+	<string name="Job05">Car Model</string>
+	<string name="Job06">Catalog Model</string>
+	<string name="Job07">Magazine Model</string>
+	<string name="Job08">Luxury Magazine Model</string>
+	<string name="Job09">Photographer Assistant</string>
+	<string name="Job10">Photo Magazine Editorial</string>
+	<string name="Job11">Photography Advisor</string>
+	<string name="Job12">Photography Director</string>
+	<string name="Job13">Fashion TV Assistant</string>
+	<string name="Job14">Fashion TV Presenter</string>
+	<string name="Job15">Fashion TV Coodinator</string>
+	<string name="Job16">Fashion TV Art Director</string>
+	<string name="Job17">Fab Vogue Columnist</string>
+	<string name="Job18">Fab Vogue Editorial</string>
+	<string name="Job19">Fab Vogue Manager</string>
+	<string name="Job20">Fab Vogue Board Director</string>
+	<string name="Job21">H＆N Store Manager</string>
+	<string name="Job22">H＆N Store Director</string>
+	<string name="Job23">H＆N Store Shareholder</string>
+	<string name="Job24">H＆N Store CEO</string>
+	<string name="shop04_level">Level 3</string>
+	<string name="shop05_level">Level 6</string>
+	<string name="shop06_level">Level 7</string>
+	<string name="shop07_level">Level 8</string>
+	<string name="shop08_level">Level 10</string>
+	<string name="shop09_level">Level 13</string>
+	<string name="shop10_level">Level 18</string>
+	<string name="shop11_level">Level 22</string>
+	<string name="shop12_level">Level 25</string>
+	<string name="shop13_level">Level 30</string>
+	<string name="shop14_level">Level 34</string>
+	<string name="shop01_name">M.A.E Beauty Center</string>
+	<string name="shop02_name">FabCity</string>
+	<string name="shop03_name">Fabulous Hair Salon</string>
+	<string name="shop04_name">W ＆ E</string>
+	<string name="shop05_name">Forever Chic</string>
+	<string name="shop06_name">Karren Hair Salon</string>
+	<string name="shop07_name">Blue Moon VIP</string>
+	<string name="shop08_name">Studio88</string>
+	<string name="shop09_name">Blitz Avenue</string>
+	<string name="shop10_name">Luvability</string>
+	<string name="shop11_name">Christos Salon</string>
+	<string name="shop12_name">Enchanteur</string>
+	<string name="shop13_name">De Luxe</string>
+	<string name="shop14_name">The Vanity</string>
+	<string name="level01_name">Fashion Beginner</string>
+	<string name="level02_name">Stylish Chic</string>
+	<string name="level03_name">Fabulous Fashion Lover</string>
+	<string name="level04_name">Simply Fashionable</string>
+	<string name="level05_name">Swanky Princess</string>
+	<string name="level06_name">Style Goddess</string>
+	<string name="level07_name">Incredibly Chic</string>
+	<string name="level08_name">Trendy Glamorous</string>
+	<string name="level09_name">Future Fashion Star</string>
+	<string name="level10_name">Timeless Fashion Rebel</string>
+	<string name="level11_name">Queen of Elegance</string>
+	<string name="level12_name">Fearless Style Icon</string>
+	<string name="level13_name">Fashion Star</string>
+	<string name="level14_name">The Socialite</string>
+	<string name="level15_name">Classic Fashion Goddess</string>
+	<string name="level16_name">Fashion Stunner</string>
+	<string name="level17_name">Fashionable Diva</string>
+	<string name="level18_name">Charming Fashionista</string>
+	<string name="level19_name">Fashion Icon</string>
+	<string name="level20_name">Fashion Royalty</string>
+	<string name="level21_name">Hypnotic Style Maven</string>
+	<string name="level22_name">Fashion Risk Taker</string>
+	<string name="level23_name">Fashionably Chic</string>
+	<string name="level24_name">Fashion Charmer</string>
+	<string name="level25_name">Smart Fashionista</string>
+	<string name="level26_name">Glamourous Princess</string>
+	<string name="level27_name">Fabulous Star</string>
+	<string name="level28_name">Magnetic Style Goddess</string>
+	<string name="level29_name">Bold Fashionista</string>
+	<string name="level30_name">Fierce Fashionista</string>
+	<string name="level31_name">Tres Chic Fashionista</string>
+	<string name="level32_name">Iconic Fashionista</string>
+	<string name="level33_name">A List Socialite</string>
+	<string name="level34_name">Iconic Diva</string>
+	<string name="level35_name">Angelic Fashion Star</string>
+	<string name="level36_name">Fashion Critic</string>
+	<string name="level37_name">Fashion Queen</string>
+	<string name="level38_name">Iconic Style Star</string>
+	<string name="level39_name">Fashion Superstar</string>
+	<string name="level40_name">Fashion Entrepreneur</string>
+	<string name="duty01_name">First Casual Look</string>
+	<string name="duty02_name">First day at my job</string>
+	<string name="duty03_name">Samantha′s Birthday Party</string>
+	<string name="duty04_name">Grocery Day</string>
+	<string name="duty05_name">Girl′s night out</string>
+	<string name="duty06_name">Casual dinner with John</string>
+	<string name="duty07_name">My best friend′s House Party</string>
+	<string name="duty08_name">Meeting Day</string>
+	<string name="duty09_name">Sunny lunch day with friends</string>
+	<string name="duty10_name">Casual Lazy Day</string>
+	<string name="duty11_name">A hang out day with Bianca</string>
+	<string name="duty12_name">Fun Carnival day with friends</string>
+	<string name="duty13_name">Romantic dinner with James</string>
+	<string name="duty14_name">My first time attending fashion show</string>
+	<string name="duty15_name">Amy′s bachelorette party</string>
+	<string name="duty16_name">Brunch with my collagues</string>
+	<string name="duty17_name">My Unusual look</string>
+	<string name="duty18_name">My friend′s graduation dinner</string>
+	<string name="duty19_name">Important event in company</string>
+	<string name="duty20_name">Shopping time outfit</string>
+	<string name="duty21_name">Interviewing my favorite fashionista, Mary Jade</string>
+	<string name="duty22_name">My friend′s wedding party</string>
+	<string name="duty23_name">Lunch time with girl friends</string>
+	<string name="duty24_name">Going out to computer expo with Ashley</string>
+	<string name="duty25_name">Casual date with my new friend, Harry</string>
+	<string name="duty26_name">New hairstyle!</string>
+	<string name="duty27_name">Meet up with a celebrity at my company</string>
+	<string name="duty28_name">Weekend look</string>
+	<string name="duty29_name">My very unusual look</string>
+	<string name="duty30_name">Me wearing different make up</string>
+	<string name="duty31_name">Catching up with my old friend, Amanda</string>
+	<string name="duty32_name">Fundraising Gala event</string>
+	<string name="duty33_name">Promotion day at work!</string>
+	<string name="duty34_name">Friend′s baby shower</string>
+	<string name="duty35_name">Shopping in a bright fun day</string>
+	<string name="duty36_name">Tomboy look</string>
+	<string name="duty37_name">Fashionista day</string>
+	<string name="duty38_name">Party time</string>
+	<string name="duty39_name">Black and white color scheme outfit</string>
+	<string name="duty40_name">Lunch time with new guy at office</string>
+	<string name="duty41_name">Red carpet moment</string>
+	<string name="duty42_name">Have fun at the beach</string>
+	<string name="duty43_name">Stylish busy day</string>
+	<string name="duty44_name">Going out of town look</string>
+	<string name="duty45_name">Colorful outfit</string>
+	<string name="duty46_name">Friend′s engagement party</string>
+	<string name="duty47_name">Fashionable &quot;relax&quot; day</string>
+	<string name="duty48_name">Flowery outfit</string>
+	<string name="duty49_name">Skinny jeans look</string>
+	<string name="duty50_name">Attending Rock concert with pals</string>
+	<string name="duty51_name">Meeting with a CEO of fashion magazine</string>
+	<string name="duty52_name">Super girly look</string>
+	<string name="duty53_name">New hairstyle day</string>
+	<string name="duty54_name">Garden</string>
+	<string name="duty55_name">Brunch with high school friends</string>
+	<string name="duty56_name">Bright color outfit</string>
+	<string name="duty57_name">Dress up as celebrity</string>
+	<string name="duty58_name">Birthday bash of my ex roommate</string>
+	<string name="duty59_name">My very own &quot;look&quot;</string>
+	<string name="duty60_name">Natural colors outfit</string>
+	<string name="duty61_name">Prestigious Paris fashion show</string>
+	<string name="duty62_name">Denim outfit</string>
+	<string name="duty63_name">A day in art gallery</string>
+	<string name="duty64_name">Pool party look</string>
+	<string name="duty65_name">Chosen as &quot; the most fashionable girl &quot;
+		in my workplace</string>
+	<string name="duty66_name">Disneyland day</string>
+	<string name="duty67_name">Stripes-related outfit</string>
+	<string name="duty68_name">Pinky look</string>
+	<string name="duty69_name">Romantic date with Tom</string>
+	<string name="duty70_name">Unique outfit combination</string>
+	<string name="duty01_description">Create your first casual look and save it on
+		lookbook</string>
+	<string name="duty02_description">You are going to your first day at your job. Create
+		a lookbook of your semi casual yet chic style</string>
+	<string name="duty03_description">You are invited by your friend, Samantha to her
+		birthday party. Create a lookbook based on this look</string>
+	<string name="duty04_description">Create a casual yet trendy look for your daily
+		&quot;grocery day&quot;</string>
+	<string name="duty05_description">Girl′s night out is the best! Create your best look
+		and save it in your lookbook</string>
+	<string name="duty06_description">Your new colleague, John, asked you out to casual
+		dinner. Create a look to impress him</string>
+	<string name="duty07_description">You are attending your best friend′s weekend house
+		party, don′t forget many hot guys are attending too ;)</string>
+	<string name="duty08_description">Today is a big meeting day in your company, wear
+		your best and fashionable look to impress board of director!</string>
+	<string name="duty09_description">Having lunch in a sunny day is sure exciting. Wear
+		your best dress to have an exciting lunch with your friends today</string>
+	<string name="duty10_description">Today is just another &quot;lazy&quot; day. But
+		lazy day does not mean you can′t still dress to impress. Create your
+		casual &quot;lazy day&quot; style</string>
+	<string name="duty11_description">You Friend, Bianca , came from overseas and you
+		have a super fun &quot;hang out&quot; day today. Create a lookbook
+		based on today′s hang out stye</string>
+	<string name="duty12_description">You are going to a fun carnival with your friends.
+		A fun day needs a perfect fun outfit! Create a lookbook of this style</string>
+	<string name="duty13_description">You are having a romantic dinner with your crush,
+		James. Dress to impress him and create a lovely lookbook about this
+		amazing night</string>
+	<string name="duty14_description">You are invited to attend a fashion show on behalf
+		of your company. Create an amazing look for tonight′s event</string>
+	<string name="duty15_description">You are going to a girly bachelorette party of your
+		friend, Amy. Wear your flir-tiest outfit and have fun!</string>
+	<string name="duty16_description">Create a look of you having a brunch with your
+		collagues at work.</string>
+	<string name="duty17_description">Change is refreshing. Create an &quot; UNUSUAL LOOK
+		&quot; of your daily style and save it in your lookbook</string>
+	<string name="duty18_description">You are attending your friend′s graduation dinner.
+		Create a lookbook based on today′s outfit</string>
+	<string name="duty19_description">Today , you need to attend a very important event
+		in your company. Create a fashionable look and impress everybody</string>
+	<string name="duty20_description">Today is Shopping time! Create a lookbook based on
+		today′s outfit!</string>
+	<string name="duty21_description">You are interviewing Mary Jade, one of the most
+		influential Fashionista. Impress everybody with your original look and
+		save it in your lookbook</string>
+	<string name="duty22_description">You are invited to your friend′s wedding party.
+		Wear your loveliest outfit and save it to your lookbook</string>
+	<string name="duty23_description">Having a lunch time with your girl friends are the
+		best. Create your daily yet fashionable look</string>
+	<string name="duty24_description">You are accompanying your friend, Ashley to a tech
+		and computer expo . Create your best look and save it in your look
+		book</string>
+	<string name="duty25_description">A new friend, Harry , asked you out to a casual
+		date. Create a lookbook based on today′s outfit</string>
+	<string name="duty26_description">Having a new look is always refreshing. Create a
+		lookbook of your new look with &quot; new hairstyle &quot; !</string>
+	<string name="duty27_description">Today is a busy day because an important celebrity
+		is coming to your company. Be prepared with your best style and save
+		it in your lookbook</string>
+	<string name="duty28_description">You are going to have a fun weekend with your
+		friends watching movies and dining out. Create a lookbook based on
+		today′s outfit</string>
+	<string name="duty29_description">Create a look that you never usually wear before. A
+		little bit of changes might impress your friends!</string>
+	<string name="duty30_description">Another new day, another new look. Wear different
+		make up today to your work and see how your colleagues might be
+		impressed with your fresh look!</string>
+	<string name="duty31_description">Your old friend, Amanda, is coming to your town.
+		You will have many things to catch up ;) Creat a lookbook based on
+		today′s outfit</string>
+	<string name="duty32_description">You are going to a fundraising gala event tonight .
+		Create a look based on this amazing event</string>
+	<string name="duty33_description">You are promoted at work and your friends are
+		planning a party for you! Create a lookbook to remember this amazing
+		event</string>
+	<string name="duty34_description">You are attending you friend′s baby shower. Wear
+		your pretty dress and save it to your lookbook</string>
+	<string name="duty35_description">Today is a bright fun day, Go Shopping, then create
+		a look based on your new clothes!</string>
+	<string name="duty36_description">Create a tomboy look and save it to lookbook</string>
+	<string name="duty37_description">Be a Real Fashionista , wear you most fashionable
+		pieces and save it to your lookbook</string>
+	<string name="duty38_description">It′s party time tonight! Impress your friends and
+		possible cute guy :) Don′t forget to save it to your lookbook</string>
+	<string name="duty39_description">Create a look using only black and white color
+		scheme!</string>
+	<string name="duty40_description">A hot new guy in your office asked for a lunch time
+		together. Wear amazing outfit and save it to your lookbook</string>
+	<string name="duty41_description">You are attending a prestigious award show today.
+		Be ready for the red carpet and save it to your lookbook</string>
+	<string name="duty42_description">You are going to the beach with your mates today,
+		get ready to have a blast!</string>
+	<string name="duty43_description">Today is a busy busy day. Create your office look ,
+		be as stylish as ever!</string>
+	<string name="duty44_description">You and your best friends are going out of town
+		this weekend. Let′s see what you′ve got for this amazing &quot; girls
+		only &quot; weekend look!</string>
+	<string name="duty45_description">Create a look of your best &quot; Colorful &quot;
+		outfit, and save it to your lookbook</string>
+	<string name="duty46_description">You are attending your friend′s engagement party.
+		It′s gonna be one amazing evening. Don′t forget to save your look in
+		your lookbook</string>
+	<string name="duty47_description">After all these hectic days, you need a relax day!
+		Wear your relaxed yet fashionable look and save it to your lookbook</string>
+	<string name="duty48_description">Create a &quot; Flowery &quot; look and save it to
+		your lookbook</string>
+	<string name="duty49_description">Rock your skinny jeans and save this look to your
+		lookbook</string>
+	<string name="duty50_description">You are going to watch a rock concert with your
+		pals. Be creative and save your look in your lookbook</string>
+	<string name="duty51_description">You have an important appointment with a CEO of
+		fashion magazine. Impress everybody with you fierce look and save it
+		to your lookbook</string>
+	<string name="duty52_description">It′s nice to be very girly sometimes. Create a
+		super girly look and save it to your lookbook</string>
+	<string name="duty53_description">It′s time to change your hairstyle. Be different!
+		Don′t forget to save your new look to your lookbook</string>
+	<string name="duty54_description">Garden party is always the best. Wear your best and
+		impress everybody!</string>
+	<string name="duty55_description">You are going to have a brunch with your high
+		school friends. It′s been a long time you have not seen them! Create
+		amazing look and save it to your lookbook</string>
+	<string name="duty56_description">Create a look using very bright colors and save it
+		to your lookbook</string>
+	<string name="duty57_description">It′s nice to be a celebrity in one day! Dress up
+		using your favorite celeb′s style and save it to your lookbook</string>
+	<string name="duty58_description">You are attending a cool birthday bash of your ex
+		roommate , Carey . Wear your hot outfit and save it to your lookbook</string>
+	<string name="duty59_description">Be Yourself is always the best when it comes to
+		fashion. Create a very &quot; YOU &quot; look and save it to your
+		lookbook</string>
+	<string name="duty60_description">Create a look of you wearing outfit in Natural
+		colors and save it to your lookbook</string>
+	<string name="duty61_description">You are going to Paris to attend a prestigious
+		Fashion Show! Wear you best outfit, and WOW everyone. Don′t forget to
+		save it to your lookbook</string>
+	<string name="duty62_description">Create a look of you wearing denim outfit then save
+		it to your lookbook</string>
+	<string name="duty63_description">Today, you are going to an art gallery with your
+		new circle of friends. Create a look and save it to your lookbook</string>
+	<string name="duty64_description">Pool party is fun! Wear your amazing outfit and
+		save it your lookbook</string>
+	<string name="duty65_description">Congrats! You are chosen as &quot; The most
+		fashionable girl &quot; in your company. Can you live up the
+		expectation? Create your look and save it your lookbook</string>
+	<string name="duty66_description">You are going to have a fun day , going to
+		Disneyland with your girl friends today! Wear your casual and fun
+		outfit, and save it to your lookbook</string>
+	<string name="duty67_description">Create a look of you wearing stripes-related outfit
+		and save it to your lookbook</string>
+	<string name="duty68_description">Feel Girly today? Wear your Pink-theme outfit and
+		save it to your lookbook</string>
+	<string name="duty69_description">Wear your beautiful evening dress, you are going to
+		have a romantic date with your crush tonight. Don′t forget to save
+		your look in your lookbook</string>
+	<string name="duty70_description">Don′t hesitate to use different colors in one
+		outfit. Be fearless, and create a look wearing your most &quot; unique
+		&quot; combination yet!</string>
+	<string name="flirt01">Carlos says you look great!. Would you accept his
+		compliment?</string>
+	<string name="flirt02">Russell thinks you look beautiful, he wants to buy
+		you a drink. Would you accept?</string>
+	<string name="flirt03">Shane is hitting on you, would you like to accept?</string>
+	<string name="flirt04">Shawn thinks you look amazing today. Would you
+		accept his compliment?</string>
+	<string name="flirt05">Mario flirts with you, would you like to flirt
+		back?</string>
+	<string name="flirt06">Roberto likes your style a lot. Would you accept
+		his compliment?</string>
+	<string name="flirt07">Ryan thinks you look pretty today. Would you like
+		to accept his compliment?</string>
+	<string name="flirt08">Robbert wants to know you more, are you interested?</string>
+	<string name="flirt09">Enrique is smitten with you. Would you accept his
+		greeting?</string>
+	<string name="flirt10">Dwayne is interested in you, are you interested?</string>
+	<string name="flirt11">Clayton says your style is unique , would you
+		accept his compliment?</string>
+	<string name="flirt12">Clinton likes your smile a lot, would you accept
+		his compliment?</string>
+	<string name="flirt13">Chester adores the way you dress today, would you
+		accept his compliment?</string>
+	<string name="flirt14">Zach says your hair look beautiful, would you
+		accept his compliment?</string>
+	<string name="flirt15">Floyd think your make up look gorgeous, would you
+		accept this compliment?</string>
+	<string name="flirt16">Jeremy likes your unique personality and style,
+		would you accept the compliment?</string>
+	<string name="flirt17">Jerome likes you and wants to ask for a date, would
+		you accept it?</string>
+	<string name="flirt18">Alex would like to ask you for a date, would you
+		accept it?</string>
+	<string name="flirt19">Tommy is mesmerized by your beauty, would you
+		accept his compliment?</string>
+	<string name="flirt20">Francis says you are one of the hottest girl he′d
+		ever met. would you accept his compliment?</string>
+	<string name="flirt21">Antonio thinks your outfit is gorgeous, would you
+		accept his compliment?</string>
+	<string name="flirt22">Matt is amazed by your beautiful look, would you
+		accept his compliment?</string>
+	<string name="flirt23">George says you look stunning today, would you
+		accept his compliment?</string>
+	<string name="flirt24">Brad says your look is so amazing and original,
+		would you accept his compliment?</string>
+	<string name="flirt25">Justin thinks you look cool! Would you accept his
+		compliment?</string>
+	<string name="flirt26">Sean is flirting with you. Are you interested?</string>
+	<string name="flirt27">Gerald says your eyes look beautiful, would you
+		accept his compliment?</string>
+	<string name="flirt28">Patrick loves the way you look. Would you accept
+		his compliment?</string>
+	<string name="flirt29">Scott is asking you to be his date, would you
+		accept it?</string>
+	<string name="flirt30">Matthew likes your fashion sense, would you accept
+		his compliment?</string>
+	<string name="shop_noitem">No more items found</string>
+	<string name="cash_not_enough">Not enough cash. Would you like to go to ATM?</string>
+	<string name="coin_not_enough">Not enough coins. Would you like to go to ATM?</string>
+	<string name="level_no_access">Oops, you need higher level to access this area.</string>
+	<string name="energy_not_enough">You have run out of Energy. Would you like to
+		refill them?</string>
+	<string name="removeall">Are you sure you want to remove all items you are
+		wearing right now?</string>
+	<string name="saved_changes">Your changes are saved.</string>
+	<string name="Closet_nosaved">If you have not saved yet, changes just made will
+		be lost. Are you sure you want to exit?</string>
+	<string name="apply_changes">Apply these changes to ?</string>
+	<string name="lookbook_only">Lookbook Only</string>
+	<string name="lookbook_avatar">Lookbook + Avatar</string>
+	<string name="welcome">Welcome</string>
+	<string name="enter">Log in to Facebook</string>
+
+	<string name="twitter_callback">http://example.com/oauth</string>
+</resources>

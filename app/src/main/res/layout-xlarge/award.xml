@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="800px" android:layout_height="1200px"
+	android:layout_gravity="center" android:background="@drawable/award_achievementbackground" android:soundEffectsEnabled="false">
+	<ImageView android:layout_gravity="top|left"
+		android:layout_marginLeft="105px" android:layout_width="80px"
+		android:visibility="visible" android:layout_height="178px"
+		android:layout_marginTop="258px" android:id="@+id/Bronze01View"
+		android:soundEffectsEnabled="false"></ImageView>
+	<ImageView android:layout_gravity="top|left"
+		android:layout_width="80px" android:visibility="visible"
+		android:layout_height="178px" android:layout_marginLeft="228px"
+		android:layout_marginTop="255px" android:id="@+id/Silver01View"
+		android:soundEffectsEnabled="false"></ImageView>
+	<ImageView android:layout_gravity="top|left"
+		android:layout_width="80px" android:visibility="visible"
+		android:layout_height="178px" android:layout_marginTop="255px"
+		android:layout_marginLeft="360px" android:id="@+id/Gold01View"
+		android:soundEffectsEnabled="false"></ImageView>
+	<ImageView android:layout_gravity="top|left"
+		android:layout_width="80px" android:visibility="visible"
+		android:layout_height="178px" android:layout_marginTop="255px"
+		android:layout_marginLeft="485px" android:id="@+id/Platinum01View"
+		android:soundEffectsEnabled="false"></ImageView>
+	<ImageView android:layout_gravity="top|left"
+		android:layout_width="80px" android:visibility="visible"
+		android:layout_height="178px" android:layout_marginLeft="615px"
+		android:layout_marginTop="258px" android:id="@+id/Pink01View"
+		android:soundEffectsEnabled="false"></ImageView>
+	<ImageView android:layout_width="80px"
+		android:layout_gravity="top|left" android:layout_marginTop="555px"
+		android:layout_marginLeft="105px" android:layout_height="170px"
+		android:id="@+id/Bronze02View" android:soundEffectsEnabled="false"></ImageView>
+	<ImageView android:layout_width="80px"
+		android:layout_gravity="top|left" android:layout_marginTop="555px"
+		android:layout_height="170px" android:layout_marginLeft="230px"
+		android:id="@+id/Silver02View" android:soundEffectsEnabled="false"></ImageView>
+	<ImageView android:layout_width="80px"
+		android:layout_gravity="top|left" android:layout_marginTop="555px"
+		android:layout_height="170px" android:layout_marginLeft="360px"
+		android:id="@+id/Gold02View" android:soundEffectsEnabled="false"></ImageView>
+	<ImageView android:layout_width="80px"
+		android:layout_gravity="top|left" android:layout_marginTop="555px"
+		android:layout_height="170px" android:layout_marginLeft="485px"
+		android:id="@+id/Platinum02View" android:soundEffectsEnabled="false"></ImageView>
+	<ImageView android:layout_width="80px"
+		android:layout_gravity="top|left" android:layout_marginTop="555px"
+		android:layout_height="170px" android:layout_marginLeft="615px"
+		android:id="@+id/Pink02View" android:soundEffectsEnabled="false"></ImageView>
+	<ImageView android:layout_gravity="top|left"
+		android:layout_width="100px" android:layout_height="150px"
+		android:layout_marginLeft="98px" android:layout_marginTop="863px"
+		android:id="@+id/Bronze03View" android:soundEffectsEnabled="false"></ImageView>
+	<ImageView android:layout_gravity="top|left"
+		android:layout_width="100px" android:layout_marginLeft="220px"
+		android:layout_height="148px" android:layout_marginTop="863px"
+		android:id="@+id/Silver03View" android:soundEffectsEnabled="false"></ImageView>
+	<ImageView android:layout_gravity="top|left"
+		android:layout_width="100px" android:layout_height="150px"
+		android:layout_marginTop="863px" android:layout_marginLeft="353px"
+		android:id="@+id/Gold03View" android:soundEffectsEnabled="false"></ImageView>
+	<ImageView android:layout_gravity="top|left"
+		android:layout_width="100px" android:layout_height="150px"
+		android:layout_marginTop="863px" android:layout_marginLeft="478px"
+		android:id="@+id/Platinum03View" android:soundEffectsEnabled="false"></ImageView>
+	<ImageView android:layout_gravity="top|left"
+		android:layout_width="100px" android:layout_height="148px"
+		android:layout_marginTop="863px" android:layout_marginLeft="605px"
+		android:id="@+id/Pink03View" android:soundEffectsEnabled="false"></ImageView>
+	<ImageButton android:background="@drawable/gohome_btn"
+		android:id="@+id/AwardHomeButton" android:layout_gravity="bottom|right"
+		android:layout_height="125px" android:layout_width="125px"
+		android:layout_marginBottom="15px" android:layout_marginRight="25px" android:soundEffectsEnabled="false"></ImageButton>
+	<com.miinu.FabLife.ViewComponent.BotiqueHintView
+		android:layout_gravity="top|left" android:id="@+id/HintView"
+		android:visibility="gone" android:layout_height="fill_parent"
+		android:layout_width="fill_parent" android:soundEffectsEnabled="false"></com.miinu.FabLife.ViewComponent.BotiqueHintView>
+</FrameLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="black">#000000</color>
+<color name="white">#ffffff</color>
+<color name="setting_color">#ff015b</color>
+<color name="rating_color">#ff015b</color>
+<color name="level_color">#f37123</color>
+<color name="haircolor01">#e0e183</color>
+<color name="haircolor02">#482f1f</color>
+<color name="haircolor03">#73401f</color>
+<color name="haircolor04">#a37036</color>
+<color name="haircolor05">#b33c00</color>
+<color name="haircolor06">#141414</color>
+<color name="haircolor07">#B7881B</color>
+<color name="haircolor08">#2e0b2c</color>
+<color name="transparent_background">#00000000</color>
+<color name="hair_bg">#706A6A</color>
+</resources>

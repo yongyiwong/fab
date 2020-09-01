@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_gravity="center" android:layout_height="1020px"
+	android:layout_width="680px">
+	<FrameLayout android:layout_width="fill_parent"
+		android:background="@drawable/home_bar" android:soundEffectsEnabled="false"
+		android:layout_height="106px" android:id="@+id/StatusBarLayout">
+		<ImageView android:soundEffectsEnabled="false"
+			android:layout_gravity="top|left" android:background="@drawable/home_vip_title" android:layout_width="60px" android:layout_height="34px" android:layout_marginTop="21px" android:layout_marginLeft="43px"></ImageView>
+		<com.miinu.FabLife.ViewComponent.StatusBarLevel
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="159px" android:layout_height="45px"
+			android:layout_marginTop="13px" android:id="@+id/StatusLevelView"
+			android:layout_marginLeft="134px"></com.miinu.FabLife.ViewComponent.StatusBarLevel>
+		<com.miinu.FabLife.ViewComponent.StatusBarEnergy
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="147px" android:layout_height="55px"
+			android:layout_marginTop="9px" android:id="@+id/StatusEnergyView"
+			android:layout_marginLeft="295px"></com.miinu.FabLife.ViewComponent.StatusBarEnergy>
+		<com.miinu.FabLife.ViewComponent.StatusBarCoin
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="128px" android:layout_height="43px"
+			android:layout_marginTop="15px" android:id="@+id/StatusCoinView"
+			android:layout_marginLeft="444px"></com.miinu.FabLife.ViewComponent.StatusBarCoin>
+		<com.miinu.FabLife.ViewComponent.StatusBarCash
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="106px" android:layout_height="43px"
+			android:layout_marginTop="15px" android:id="@+id/StatusCashView"
+			android:layout_marginLeft="574px"></com.miinu.FabLife.ViewComponent.StatusBarCash>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:editable="false"
+			android:singleLine="true" android:layout_gravity="top|left"
+			android:textColor="@color/black" android:textSize="34px"
+			android:layout_marginLeft="128px" android:soundEffectsEnabled="false"
+			android:textScaleX="0.8" android:layout_marginTop="68px"
+			android:id="@+id/StatusCaptionView"></TextView>
+		<TextView android:layout_width="106px" android:gravity="left"
+			android:layout_height="wrap_content" android:editable="false"
+			android:singleLine="true" android:layout_gravity="top|center_horizontal"
+			android:textColor="@color/black" android:layout_marginLeft="234px"
+			android:textScaleX="0.8" android:layout_marginTop="68px"
+			android:soundEffectsEnabled="false" android:textSize="34px"
+			android:id="@+id/StatusTimerView"></TextView>
+	</FrameLayout>
+	<FrameLayout android:layout_marginTop="106px"
+		android:layout_gravity="top|center_horizontal" android:layout_width="680px"
+		android:id="@+id/VIPLayout" android:layout_height="914px">
+		<com.miinu.FabLife.ViewComponent.AvatarView
+			android:layout_height="808px" android:layout_marginRight="-128px"
+			android:layout_width="510px" android:layout_gravity="top|right"
+			android:soundEffectsEnabled="false" android:id="@+id/VipAvatarView"
+			android:layout_marginTop="43px"></com.miinu.FabLife.ViewComponent.AvatarView>
+		<ImageButton android:id="@+id/VipBuyButton"
+			android:layout_gravity="top|left" android:layout_height="128px"
+			android:layout_width="276px" android:background="@drawable/vip_buy_btn"
+			android:layout_marginLeft="89px" android:layout_marginTop="638px"
+			android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:background="@drawable/gohome_btn"
+			android:id="@+id/VipHomeButton" android:layout_height="85px"
+			android:layout_width="85px" android:layout_gravity="bottom|right"
+			android:layout_marginRight="9px" android:layout_marginBottom="9px"
+			android:soundEffectsEnabled="false"></ImageButton>
+	</FrameLayout>
+</FrameLayout>

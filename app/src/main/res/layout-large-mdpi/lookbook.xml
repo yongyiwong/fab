@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/LBLayout" android:layout_width="680px"
+	android:layout_height="1020px" android:layout_gravity="center" android:background="@drawable/lookbook_cover">
+    <FrameLayout android:layout_width="510px" android:layout_height="383px" android:layout_marginTop="468px" android:layout_marginLeft="128px" android:layout_gravity="top|left" android:id="@+id/LookBookTaskLayout" android:background="@drawable/popup_dailytask">
+        <TextView android:textScaleX="0.8" android:text="TextView" android:textStyle="bold" android:layout_height="wrap_content" android:layout_marginTop="77px" android:layout_gravity="top|center_horizontal" android:id="@+id/LookBookTaskNameView" android:editable="false" android:layout_width="wrap_content" android:textColor="@color/setting_color" android:textSize="38px"></TextView>
+        <TextView android:textScaleX="0.8" android:text="TextView" android:layout_height="wrap_content" android:layout_marginTop="136px" android:layout_gravity="top|center_horizontal" android:id="@+id/LookBookTaskDescView" android:editable="false" android:layout_width="425px" android:textColor="@color/white" android:textSize="30px"></TextView>
+        <ImageButton android:id="@+id/DoTaskButton" android:layout_width="170px" android:layout_height="85px" android:background="@drawable/do_task_btn" android:soundEffectsEnabled="false" android:layout_marginBottom="9px" android:layout_gravity="bottom|center_horizontal"></ImageButton>
+    </FrameLayout>
+    <ImageView android:soundEffectsEnabled="false" android:id="@+id/LookBookSwipeView" android:layout_gravity="top|right" android:background="@drawable/swipe" android:layout_width="174px" android:layout_height="166px"></ImageView>
+    <ImageButton android:id="@+id/LookBookGoHomeButton" android:layout_width="85px" android:layout_height="85px" android:background="@drawable/gohome_btn" android:soundEffectsEnabled="false" android:layout_marginBottom="43px" android:layout_gravity="bottom|right" android:layout_marginRight="43px"></ImageButton>
+</FrameLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="600px" android:layout_height="900px"
+	android:layout_gravity="center">
+	<FrameLayout android:layout_width="fill_parent"
+		android:background="@drawable/home_bar" android:soundEffectsEnabled="false"
+		android:layout_height="94px" android:id="@+id/StatusBarLayout">
+		<ImageView android:soundEffectsEnabled="false"
+			android:layout_gravity="top|left" android:background="@drawable/home_shops_title"
+			android:layout_width="98px" android:layout_height="36px"
+			android:layout_marginTop="15px" android:layout_marginLeft="11px"></ImageView>
+		<com.miinu.FabLife.ViewComponent.StatusBarLevel
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="141px" android:layout_height="39px"
+			android:layout_marginTop="11px" android:id="@+id/StatusLevelView"
+			android:layout_marginLeft="118px"></com.miinu.FabLife.ViewComponent.StatusBarLevel>
+		<com.miinu.FabLife.ViewComponent.StatusBarEnergy
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="129px" android:layout_height="49px"
+			android:layout_marginTop="8px" android:id="@+id/StatusEnergyView"
+			android:layout_marginLeft="261px"></com.miinu.FabLife.ViewComponent.StatusBarEnergy>
+		<com.miinu.FabLife.ViewComponent.StatusBarCoin
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="113px" android:layout_height="38px"
+			android:layout_marginTop="13px" android:id="@+id/StatusCoinView"
+			android:layout_marginLeft="392px"></com.miinu.FabLife.ViewComponent.StatusBarCoin>
+		<com.miinu.FabLife.ViewComponent.StatusBarCash
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="94px" android:layout_height="38px"
+			android:layout_marginTop="13px" android:id="@+id/StatusCashView"
+			android:layout_marginLeft="506px"></com.miinu.FabLife.ViewComponent.StatusBarCash>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:editable="false"
+			android:singleLine="true" android:layout_gravity="top|left"
+			android:textColor="@color/black" android:textSize="30px"
+			android:layout_marginLeft="113px" android:soundEffectsEnabled="false"
+			android:textScaleX="0.8" android:layout_marginTop="60px"
+			android:id="@+id/StatusCaptionView"></TextView>
+		<TextView android:layout_width="94px" android:gravity="left"
+			android:layout_height="wrap_content" android:editable="false"
+			android:singleLine="true" android:layout_gravity="top|center_horizontal"
+			android:textColor="@color/black" android:layout_marginLeft="206px"
+			android:textScaleX="0.8" android:layout_marginTop="60px"
+			android:soundEffectsEnabled="false" android:textSize="30px"
+			android:id="@+id/StatusTimerView"></TextView>
+	</FrameLayout>
+	<FrameLayout android:background="@drawable/store_list_bg"
+		android:layout_width="600px" android:layout_gravity="top|center_horizontal"
+		android:layout_marginTop="94px" android:layout_height="806px">
+		<SurfaceView android:layout_width="fill_parent"
+			android:layout_height="fill_parent" android:id="@+id/StoreSelectSurface"></SurfaceView>
+		<ImageButton android:background="@drawable/gohome_btn"
+			android:layout_height="94px" android:layout_marginBottom="19px"
+			android:layout_marginRight="19px" android:layout_width="94px"
+			android:layout_gravity="bottom|right" android:id="@+id/StoreListGoHomeButton"
+			android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:background="@drawable/page_dot_on"
+			android:id="@+id/StorePageDot01" android:layout_marginBottom="38px"
+			android:soundEffectsEnabled="false" android:layout_gravity="bottom|left"
+			android:layout_marginLeft="216px" android:layout_width="38px"
+			android:layout_height="38px"></ImageButton>
+		<ImageButton android:background="@drawable/page_dot_off"
+			android:id="@+id/StorePageDot02" android:layout_marginBottom="38px"
+			android:soundEffectsEnabled="false" android:layout_gravity="bottom|left"
+			android:layout_marginLeft="272px" android:layout_height="38px"
+			android:layout_width="38px"></ImageButton>
+		<ImageButton android:background="@drawable/page_dot_off"
+			android:id="@+id/StorePageDot03" android:layout_marginBottom="38px"
+			android:soundEffectsEnabled="false" android:layout_gravity="bottom|left"
+			android:layout_marginLeft="328px" android:layout_height="38px"
+			android:layout_width="38px"></ImageButton>
+		<ImageButton android:background="@drawable/page_dot_off"
+			android:layout_marginBottom="38px" android:id="@+id/StorePageDot04"
+			android:soundEffectsEnabled="false" android:layout_gravity="bottom|left"
+			android:layout_marginLeft="384px" android:layout_height="38px"
+			android:layout_width="38px"></ImageButton>
+		<ImageView android:id="@+id/ImageView01" android:background="@drawable/clickit2"
+			android:layout_height="113px" android:layout_width="188px"
+			android:layout_gravity="top|left" android:layout_marginLeft="263px"
+			android:visibility="gone" android:layout_marginTop="71px"></ImageView>
+	</FrameLayout>
+</FrameLayout>

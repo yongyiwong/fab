@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_gravity="center" android:layout_height="900px"
+	android:layout_width="600px" android:soundEffectsEnabled="false"
+	android:background="@drawable/bank_background">
+	<FrameLayout android:layout_width="fill_parent"
+		android:background="@drawable/home_bar" android:soundEffectsEnabled="false"
+		android:layout_height="94px" android:id="@+id/StatusBarLayout">
+		<ImageView android:soundEffectsEnabled="false"
+			android:layout_gravity="top|left" android:background="@drawable/home_bank_title"
+			android:layout_width="83px" android:layout_height="34px"
+			android:layout_marginTop="15px" android:layout_marginLeft="15px"></ImageView>
+		<com.miinu.FabLife.ViewComponent.StatusBarLevel
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="141px" android:layout_height="39px"
+			android:layout_marginTop="11px" android:id="@+id/StatusLevelView"
+			android:layout_marginLeft="118px"></com.miinu.FabLife.ViewComponent.StatusBarLevel>
+		<com.miinu.FabLife.ViewComponent.StatusBarEnergy
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="129px" android:layout_height="49px"
+			android:layout_marginTop="8px" android:id="@+id/StatusEnergyView"
+			android:layout_marginLeft="261px"></com.miinu.FabLife.ViewComponent.StatusBarEnergy>
+		<com.miinu.FabLife.ViewComponent.StatusBarCoin
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="113px" android:layout_height="38px"
+			android:layout_marginTop="13px" android:id="@+id/StatusCoinView"
+			android:layout_marginLeft="392px"></com.miinu.FabLife.ViewComponent.StatusBarCoin>
+		<com.miinu.FabLife.ViewComponent.StatusBarCash
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="94px" android:layout_height="38px"
+			android:layout_marginTop="13px" android:id="@+id/StatusCashView"
+			android:layout_marginLeft="506px"></com.miinu.FabLife.ViewComponent.StatusBarCash>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:editable="false"
+			android:singleLine="true" android:layout_gravity="top|left"
+			android:textColor="@color/black" android:textSize="30px"
+			android:layout_marginLeft="113px" android:soundEffectsEnabled="false"
+			android:textScaleX="0.8" android:layout_marginTop="60px"
+			android:id="@+id/StatusCaptionView"></TextView>
+		<TextView android:layout_width="94px" android:gravity="left"
+			android:layout_height="wrap_content" android:editable="false"
+			android:singleLine="true" android:layout_gravity="top|center_horizontal"
+			android:textColor="@color/black" android:layout_marginLeft="206px"
+			android:textScaleX="0.8" android:layout_marginTop="60px"
+			android:soundEffectsEnabled="false" android:textSize="30px"
+			android:id="@+id/StatusTimerView"></TextView>
+	</FrameLayout>
+	<com.miinu.FabLife.ViewComponent.AvatarView
+		android:layout_gravity="top|right" android:layout_marginTop="131px"
+		android:layout_height="713px" android:layout_marginRight="-113px"
+		android:layout_width="450px" android:id="@+id/BankAvatarView"
+		android:soundEffectsEnabled="false"></com.miinu.FabLife.ViewComponent.AvatarView>
+	<FrameLayout android:animationCache="false" android:layout_marginTop="94px"
+		android:layout_width="600px" android:layout_gravity="top|center_horizontal"
+		android:layout_height="806px" android:soundEffectsEnabled="false" android:layoutAnimation="@anim/layout_animation_right_slide">
+		<ImageView android:background="@drawable/bank_title"
+			android:id="@+id/BankTitleView" android:layout_gravity="top|left"
+			android:layout_marginLeft="19px" android:layout_marginTop="56px"
+			android:layout_width="324px" android:layout_height="68px"
+			android:soundEffectsEnabled="false"></ImageView>
+		<ImageButton android:layout_gravity="top|left"
+			android:background="@drawable/cash_20" android:id="@+id/Cash20Button"
+			android:layout_marginLeft="19px" android:layout_marginTop="188px"
+			android:soundEffectsEnabled="false" android:layout_width="118px"
+			android:layout_height="116px"></ImageButton>
+		<ImageButton android:layout_gravity="top|left" android:id="@+id/Cash53Button"
+			android:background="@drawable/cash_53" android:layout_marginLeft="141px"
+			android:layout_marginTop="188px" android:soundEffectsEnabled="false"
+			android:layout_height="116px" android:layout_width="120px"></ImageButton>
+		<ImageButton android:layout_gravity="top|left"
+			android:layout_marginLeft="263px" android:background="@drawable/cash_110"
+			android:id="@+id/Cash110Button" android:layout_marginTop="188px"
+			android:soundEffectsEnabled="false" android:layout_width="120px"
+			android:layout_height="116px"></ImageButton>
+		<ImageButton android:layout_gravity="top|left" android:id="@+id/Cash288Button"
+			android:background="@drawable/cash_288" android:layout_marginLeft="19px"
+			android:layout_marginTop="319px" android:soundEffectsEnabled="false"
+			android:layout_width="122px" android:layout_height="118px"></ImageButton>
+		<ImageButton android:layout_gravity="top|left"
+			android:background="@drawable/cash_600" android:id="@+id/Cash600Button"
+			android:layout_marginLeft="141px" android:layout_marginTop="319px"
+			android:soundEffectsEnabled="false" android:layout_width="118px"
+			android:layout_height="118px"></ImageButton>
+		<ImageButton android:layout_gravity="top|left"
+			android:layout_marginLeft="263px" android:id="@+id/Cash1270Button"
+			android:background="@drawable/cash_1270" android:layout_marginTop="319px"
+			android:soundEffectsEnabled="false" android:layout_width="124px"
+			android:layout_height="118px"></ImageButton>
+
+		<ImageButton android:layout_gravity="top|left"
+			android:background="@drawable/coin_400" android:id="@+id/Coin400Button"
+			android:layout_marginLeft="19px" android:layout_marginTop="488px"
+			android:soundEffectsEnabled="false" android:layout_width="124px"
+			android:layout_height="116px"></ImageButton>
+		<ImageButton android:layout_gravity="top|left" android:id="@+id/Coin1050Button"
+			android:background="@drawable/coin_1050" android:layout_marginLeft="141px"
+			android:layout_marginTop="488px" android:soundEffectsEnabled="false"
+			android:layout_width="124px" android:layout_height="116px"></ImageButton>
+		<ImageButton android:layout_gravity="top|left"
+			android:layout_marginLeft="263px" android:background="@drawable/coin_2200"
+			android:id="@+id/Coin2200Button" android:layout_marginTop="488px"
+			android:soundEffectsEnabled="false" android:layout_width="124px"
+			android:layout_height="116px"></ImageButton>
+		<ImageButton android:layout_gravity="top|left" android:id="@+id/Coin5750Button"
+			android:background="@drawable/coin_5750" android:layout_marginLeft="19px"
+			android:layout_marginTop="619px" android:soundEffectsEnabled="false"
+			android:layout_width="124px" android:layout_height="116px"></ImageButton>
+		<ImageButton android:layout_gravity="top|left"
+			android:background="@drawable/coin_12000" android:id="@+id/Coin12000Button"
+			android:layout_marginLeft="141px" android:layout_marginTop="619px"
+			android:soundEffectsEnabled="false" android:layout_width="124px"
+			android:layout_height="116px"></ImageButton>
+		<ImageButton android:layout_gravity="top|left"
+			android:layout_marginLeft="263px" android:id="@+id/Coin25500Button"
+			android:background="@drawable/coin_25500" android:layout_marginTop="619px"
+			android:soundEffectsEnabled="false" android:layout_width="124px"
+			android:layout_height="116px"></ImageButton>
+
+		<ImageButton android:background="@drawable/gohome_btn"
+			android:layout_gravity="bottom|right" android:layout_marginRight="38px"
+			android:layout_marginBottom="38px" android:id="@+id/BankGoHomeButton"
+			android:soundEffectsEnabled="false" android:layout_height="83px"
+			android:layout_width="83px"></ImageButton>
+	</FrameLayout>
+</FrameLayout>

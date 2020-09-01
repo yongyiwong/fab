@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_gravity="center" android:layout_height="480sp"
+	android:layout_width="320sp" android:background="@drawable/welcometomyboutique" android:soundEffectsEnabled="false">
+	<ImageButton android:background="@drawable/botique_letsstart"
+		android:id="@+id/BotiqueStartButton" android:layout_gravity="top|left"
+		android:layout_marginTop="256sp" android:layout_height="100sp"
+		android:layout_width="100sp" android:layout_marginLeft="24sp" android:soundEffectsEnabled="false"></ImageButton>
+	<ImageButton android:background="@drawable/botique_backtohome"
+		android:id="@+id/BotiqueHomeButton" android:layout_gravity="top|left"
+		android:layout_marginTop="360sp" android:layout_height="100sp"
+		android:layout_width="100sp" android:layout_marginLeft="24sp" android:soundEffectsEnabled="false"></ImageButton>
+</FrameLayout>

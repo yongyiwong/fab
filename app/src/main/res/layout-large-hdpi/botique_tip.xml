@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_gravity="center" android:layout_height="900px"
+	android:layout_width="600px" android:soundEffectsEnabled="false">
+	<FrameLayout android:layout_marginTop="94px"
+		android:layout_width="600px" android:layout_gravity="top|center_horizontal"
+		android:layout_height="806px" android:soundEffectsEnabled="false">
+		<ImageView android:layout_gravity="top|left"
+			android:layout_marginLeft="19px" android:id="@+id/BotiqueTipView"
+			android:layout_height="375px" android:layout_width="431px"
+			android:layout_marginTop="225px" android:soundEffectsEnabled="false"></ImageView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<ImageButton android:id="@+id/OkButton"
+			android:background="@drawable/boutique_popup_ok"
+			android:layout_height="56px" android:layout_gravity="top|left"
+			android:layout_width="94px" android:layout_marginTop="525px"
+			android:soundEffectsEnabled="false" android:layout_marginLeft="338px"></ImageButton>
+	</FrameLayout>
+</FrameLayout>

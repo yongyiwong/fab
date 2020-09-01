@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/MainLayout" android:layout_width="680px"
+	android:layout_gravity="center" android:layout_height="1020px"
+	android:background="@drawable/homepage_background"
+	android:soundEffectsEnabled="false">
+	<FrameLayout android:layout_width="fill_parent"
+		android:background="@drawable/home_bar" android:soundEffectsEnabled="false"
+		android:layout_height="106px" android:id="@+id/StatusBarLayout">
+		<ImageView android:background="@drawable/home_mylife_title"
+			android:soundEffectsEnabled="false" android:layout_gravity="top|left"
+			android:layout_width="128px" android:layout_height="45px"
+			android:layout_marginTop="13px"></ImageView>
+		<com.miinu.FabLife.ViewComponent.StatusBarLevel
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="159px" android:layout_height="45px"
+			android:layout_marginTop="13px" android:id="@+id/StatusLevelView"
+			android:layout_marginLeft="134px"></com.miinu.FabLife.ViewComponent.StatusBarLevel>
+		<com.miinu.FabLife.ViewComponent.StatusBarEnergy
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="147px" android:layout_height="55px"
+			android:layout_marginTop="9px" android:id="@+id/StatusEnergyView"
+			android:layout_marginLeft="295px"></com.miinu.FabLife.ViewComponent.StatusBarEnergy>
+		<com.miinu.FabLife.ViewComponent.StatusBarCoin
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="128px" android:layout_height="43px"
+			android:layout_marginTop="15px" android:id="@+id/StatusCoinView"
+			android:layout_marginLeft="444px"></com.miinu.FabLife.ViewComponent.StatusBarCoin>
+		<com.miinu.FabLife.ViewComponent.StatusBarCash
+			android:layout_gravity="top|left" android:soundEffectsEnabled="false"
+			android:layout_width="106px" android:layout_height="43px"
+			android:layout_marginTop="15px" android:id="@+id/StatusCashView"
+			android:layout_marginLeft="574px"></com.miinu.FabLife.ViewComponent.StatusBarCash>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:editable="false"
+			android:singleLine="true" android:layout_gravity="top|left"
+			android:textColor="@color/black" android:textSize="34px"
+			android:layout_marginLeft="128px" android:soundEffectsEnabled="false"
+			android:textScaleX="0.8" android:layout_marginTop="68px"
+			android:id="@+id/StatusCaptionView"></TextView>
+		<TextView android:layout_width="106px" android:gravity="left"
+			android:layout_height="wrap_content" android:editable="false"
+			android:singleLine="true" android:layout_gravity="top|center_horizontal"
+			android:textColor="@color/black" android:layout_marginLeft="234px"
+			android:textScaleX="0.8" android:layout_marginTop="68px"
+			android:soundEffectsEnabled="false" android:textSize="34px"
+			android:id="@+id/StatusTimerView"></TextView>
+	</FrameLayout>
+	<com.miinu.FabLife.ViewComponent.AvatarView
+		android:layout_gravity="top|right" android:layout_height="808px"
+		android:layout_width="510px" android:layout_marginRight="-128px"
+		android:layout_marginTop="149px" android:id="@+id/MainAvatarView"
+		android:soundEffectsEnabled="false"></com.miinu.FabLife.ViewComponent.AvatarView>
+	<FrameLayout android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:id="@+id/MainSubLayout"
+		android:soundEffectsEnabled="false">
+		<ImageButton android:layout_gravity="top|left" android:id="@+id/Button_Job"
+			android:background="@drawable/home_job_btn" android:layout_width="191px"
+			android:layout_marginLeft="21px" android:layout_height="170px"
+			android:layout_marginTop="170px" android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:layout_gravity="top|left"
+			android:layout_width="191px" android:layout_marginLeft="234px"
+			android:id="@+id/Button_Shops" android:background="@drawable/home_shops_btn"
+			android:layout_height="170px" android:layout_marginTop="170px"
+			android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:layout_gravity="top|left" android:id="@+id/Button_Closet"
+			android:background="@drawable/home_closet_btn" android:layout_width="191px"
+			android:layout_marginLeft="21px" android:layout_height="170px"
+			android:layout_marginTop="383px" android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:layout_gravity="top|left" android:id="@+id/Button_LookBook"
+			android:background="@drawable/home_lookbook_btn"
+			android:layout_width="191px" android:layout_marginLeft="234px"
+			android:layout_height="170px" android:layout_marginTop="383px"
+			android:soundEffectsEnabled="false"></ImageButton>
+		<ImageView android:background="@drawable/home_exclamation"
+			android:layout_gravity="top|left" android:layout_marginLeft="255px"
+			android:layout_width="21px" android:layout_height="64px"
+			android:id="@+id/ExclamationView" android:layout_marginTop="425px"
+			android:soundEffectsEnabled="false"></ImageView>
+		<ImageButton android:id="@+id/Button_MyBotique"
+			android:background="@drawable/openboutique_btn"
+			android:layout_height="170px" android:layout_width="191px"
+			android:layout_gravity="top|left" android:layout_marginTop="595px"
+			android:layout_marginLeft="21px" android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:layout_gravity="top|left" android:id="@+id/Button_Vip"
+			android:background="@drawable/home_vip_btn" android:layout_width="191px"
+			android:layout_marginLeft="234px" android:layout_height="170px"
+			android:layout_marginTop="595px" android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:id="@+id/Button_Setting"
+			android:background="@drawable/home_setting_btn"
+			android:layout_marginLeft="21px" android:layout_gravity="bottom|left"
+			android:layout_marginBottom="21px" android:soundEffectsEnabled="false"
+			android:layout_width="102px" android:layout_height="85px"></ImageButton>
+		<ImageButton android:id="@+id/Button_Energy"
+			android:background="@drawable/home_energy_btn"
+			android:layout_gravity="bottom|left" android:layout_marginBottom="21px"
+			android:layout_marginLeft="128px" android:soundEffectsEnabled="false"
+			android:layout_width="102px" android:layout_height="85px"></ImageButton>
+		<ImageButton android:id="@+id/Button_Bank"
+			android:background="@drawable/home_bank_btn" android:layout_gravity="bottom|left"
+			android:layout_marginBottom="21px" android:layout_marginLeft="234px"
+			android:soundEffectsEnabled="false" android:layout_width="102px"
+			android:layout_height="85px"></ImageButton>
+		<ImageButton android:background="@drawable/award"
+			android:id="@+id/Button_Award" android:layout_gravity="bottom|left"
+			android:layout_marginBottom="21px" android:layout_marginLeft="340px"
+			android:soundEffectsEnabled="false" android:layout_height="85px"
+			android:layout_width="102px"></ImageButton>
+		<ImageButton android:background="@drawable/home_openfeint"
+			android:id="@+id/Button_OpenFeint" android:layout_height="85px"
+			android:layout_width="85px" android:layout_marginRight="21px"
+			android:layout_gravity="bottom|right" android:layout_marginBottom="21px"
+			android:soundEffectsEnabled="false"></ImageButton>
+	</FrameLayout>
+	<ImageView android:layout_gravity="top|left"
+		android:layout_marginLeft="234px" android:background="@drawable/clickit1"
+		android:id="@+id/ClickItView01" android:layout_height="149px"
+		android:layout_width="234px" android:layout_marginTop="196px"
+		android:visibility="gone" android:soundEffectsEnabled="false"></ImageView>
+	<ImageView android:layout_gravity="top|left"
+		android:layout_height="149px" android:background="@drawable/clickit2"
+		android:id="@+id/ClickItView02" android:layout_marginLeft="21px"
+		android:layout_width="213px" android:layout_marginTop="196px"
+		android:visibility="gone" android:soundEffectsEnabled="false"></ImageView>
+	<ImageView android:layout_gravity="top|left"
+		android:layout_marginLeft="234px" android:background="@drawable/clickit1"
+		android:layout_height="149px" android:layout_width="234px" android:id="@+id/ClickItView03"
+		android:layout_marginTop="408px" android:visibility="gone"
+		android:soundEffectsEnabled="false"></ImageView>
+	<ImageView android:background="@drawable/it_hint"
+		android:layout_width="425px" android:layout_height="383px"
+		android:layout_gravity="top|left" android:id="@+id/HintView"
+		android:layout_marginLeft="47px" android:layout_marginTop="489px"
+		android:visibility="gone" android:soundEffectsEnabled="false"></ImageView>
+</FrameLayout>

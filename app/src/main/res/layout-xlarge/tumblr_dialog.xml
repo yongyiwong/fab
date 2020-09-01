@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#81BEF7"
+	android:orientation="vertical" 
+	android:layout_width="280dip"
+	android:layout_height="fill_parent"
+	>
+	<TextView
+		android:text="Email:"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="2dip"
+		android:textColor="#FFFFFF"
+        android:textSize="45px"
+	/>
+	<EditText 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/user" 
+		>
+	</EditText>
+	
+	<TextView
+		android:text="Password:"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_marginTop="2dip"
+		android:textColor="#FFFFFF"
+        android:textSize="45px"
+	/>
+	<EditText 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:password="true" 
+		android:id="@+id/password" 
+		>
+	</EditText>
+		
+	<Button 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:id="@+id/upload" 
+		android:text="Upload" 
+		></Button>
+	
+</LinearLayout>
+

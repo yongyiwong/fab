@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/closet_bg" android:id="@+id/ClosetMainLayout"
+	android:layout_width="680px" android:layout_gravity="center"
+	android:layout_height="1020px">
+	<ImageView android:background="@drawable/closet_bar"
+		android:id="@+id/ClosetBarView" android:layout_width="fill_parent"
+		android:layout_height="53px"></ImageView>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:editable="false"
+		android:singleLine="true" android:layout_gravity="top|left"
+		android:layout_marginLeft="574px" android:id="@+id/ClosetItemCountView"
+		android:textColor="@color/black" android:textSize="30px"
+		android:layout_marginTop="15px" android:textScaleX="0.8"></TextView>
+	<FrameLayout android:background="@drawable/shop_bar"
+		android:layout_width="fill_parent" android:layout_gravity="top"
+		android:layout_height="64px" android:id="@+id/ClosetSubjectBarLayout" android:layout_marginTop="57px">
+		<FrameLayout android:id="@+id/SubjectAllLayout"
+			android:layout_gravity="left|center_vertical"
+			android:layout_marginLeft="11px" android:layout_width="87px"
+			android:layout_height="45px" android:background="@drawable/subject_select">
+			<ImageButton android:id="@+id/SubjectAllButton"
+				android:layout_gravity="center" android:background="@drawable/subject_all"
+				android:soundEffectsEnabled="false" android:layout_height="38px"
+				android:layout_width="60px"></ImageButton>
+		</FrameLayout>
+		<FrameLayout android:layout_gravity="left|center_vertical"
+			android:layout_width="87px" android:layout_height="45px"
+			android:id="@+id/Subject01Layout" android:layout_marginLeft="74px">
+			<ImageButton android:layout_gravity="center"
+				android:background="@drawable/subject_01" android:id="@+id/Subject01Button"
+				android:soundEffectsEnabled="false" android:layout_height="38px"
+				android:layout_width="40px"></ImageButton>
+		</FrameLayout>
+		<FrameLayout android:layout_gravity="left|center_vertical"
+			android:layout_width="87px" android:layout_height="45px"
+			android:id="@+id/Subject02Layout" android:layout_marginLeft="138px">
+			<ImageButton android:layout_gravity="center"
+				android:background="@drawable/subject_02" android:id="@+id/Subject02Button"
+				android:soundEffectsEnabled="false" android:layout_height="38px"
+				android:layout_width="32px"></ImageButton>
+		</FrameLayout>
+		<FrameLayout android:layout_gravity="left|center_vertical"
+			android:layout_width="87px" android:layout_height="45px"
+			android:id="@+id/Subject03Layout" android:layout_marginLeft="202px">
+			<ImageButton android:layout_gravity="center"
+				android:background="@drawable/subject_03" android:id="@+id/Subject03Button"
+				android:soundEffectsEnabled="false" android:layout_height="38px"
+				android:layout_width="28px"></ImageButton>
+		</FrameLayout>
+		<FrameLayout android:layout_gravity="left|center_vertical"
+			android:layout_width="87px" android:layout_height="45px"
+			android:id="@+id/Subject04Layout" android:layout_marginLeft="266px">
+			<ImageButton android:layout_gravity="center"
+				android:background="@drawable/subject_04" android:id="@+id/Subject04Button"
+				android:soundEffectsEnabled="false" android:layout_height="38px"
+				android:layout_width="28px"></ImageButton>
+		</FrameLayout>
+		<FrameLayout android:layout_gravity="left|center_vertical"
+			android:layout_width="87px" android:layout_height="45px"
+			android:layout_marginLeft="329px" android:id="@+id/Subject05Layout">
+			<ImageButton android:layout_gravity="center"
+				android:background="@drawable/subject_05" android:id="@+id/Subject05Button"
+				android:soundEffectsEnabled="false" android:layout_height="38px"
+				android:layout_width="38px"></ImageButton>
+		</FrameLayout>
+		<FrameLayout android:layout_gravity="left|center_vertical"
+			android:layout_width="87px" android:layout_height="45px"
+			android:id="@+id/Subject06Layout" android:layout_marginLeft="393px">
+			<ImageButton android:layout_gravity="center"
+				android:background="@drawable/subject_06" android:id="@+id/Subject06Button"
+				android:soundEffectsEnabled="false" android:layout_height="38px"
+				android:layout_width="32px"></ImageButton>
+		</FrameLayout>
+		<FrameLayout android:layout_gravity="left|center_vertical"
+			android:layout_width="87px" android:layout_height="45px"
+			android:layout_marginLeft="457px" android:id="@+id/Subject07Layout">
+			<ImageButton android:layout_gravity="center"
+				android:background="@drawable/subject_07" android:id="@+id/Subject07Button"
+				android:soundEffectsEnabled="false" android:layout_height="38px"
+				android:layout_width="38px"></ImageButton>
+		</FrameLayout>
+		<FrameLayout android:layout_gravity="left|center_vertical"
+			android:layout_width="87px" android:layout_height="45px"
+			android:id="@+id/Subject08Layout" android:layout_marginLeft="521px">
+			<ImageButton android:layout_gravity="center"
+				android:background="@drawable/subject_08" android:id="@+id/Subject08Button"
+				android:soundEffectsEnabled="false" android:layout_height="38px"
+				android:layout_width="30px"></ImageButton>
+		</FrameLayout>
+		<FrameLayout android:layout_gravity="left|center_vertical"
+			android:layout_width="87px" android:layout_height="45px"
+			android:id="@+id/Subject09Layout" android:layout_marginLeft="584px">
+			<ImageButton android:layout_gravity="center"
+				android:background="@drawable/subject_09" android:id="@+id/Subject09Button"
+				android:soundEffectsEnabled="false" android:layout_height="38px"
+				android:layout_width="28px"></ImageButton>
+		</FrameLayout>
+	</FrameLayout>
+	<FrameLayout android:layout_height="wrap_content"
+		android:layout_gravity="top|right" android:layout_width="323px"
+		android:id="@+id/ClosetMakeUpSubLayout" android:layout_marginRight="106px"
+		android:visibility="gone" android:layout_marginTop="130px">
+		<ImageButton android:id="@+id/SkinButton"
+			android:layout_gravity="left" android:background="@drawable/makeup_item01"
+			android:layout_height="43px" android:layout_width="43px"
+			android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:background="@drawable/makeup_item02"
+			android:id="@+id/BlushOnButton" android:layout_gravity="left"
+			android:layout_height="43px" android:layout_width="43px"
+			android:layout_marginLeft="47px" android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:background="@drawable/makeup_item03"
+			android:id="@+id/EyeShadowButton" android:layout_gravity="left"
+			android:layout_height="43px" android:layout_width="43px"
+			android:layout_marginLeft="94px" android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:background="@drawable/makeup_item04"
+			android:id="@+id/MascaraButton" android:layout_gravity="left"
+			android:layout_height="43px" android:layout_width="43px"
+			android:layout_marginLeft="140px" android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:background="@drawable/makeup_item05"
+			android:id="@+id/EyeBrowButton" android:layout_gravity="left"
+			android:layout_height="43px" android:layout_width="43px"
+			android:layout_marginLeft="187px" android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:background="@drawable/makeup_item06"
+			android:id="@+id/EyeColorButton" android:layout_gravity="left"
+			android:layout_height="43px" android:layout_width="43px"
+			android:layout_marginLeft="234px" android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:background="@drawable/makeup_item07"
+			android:id="@+id/LipsButton" android:layout_gravity="left"
+			android:layout_height="43px" android:layout_width="43px"
+			android:layout_marginLeft="281px" android:soundEffectsEnabled="false"></ImageButton>
+	</FrameLayout>
+	<ImageButton android:layout_gravity="top|left"
+		android:background="@drawable/whole_c" android:layout_height="85px"
+		android:layout_width="64px" android:id="@+id/WholeButton"
+		android:layout_marginLeft="149px" android:soundEffectsEnabled="false"
+		android:layout_marginTop="185px"></ImageButton>
+	<ImageButton android:layout_height="85px"
+		android:layout_width="64px" android:layout_gravity="top|left"
+		android:background="@drawable/half" android:id="@+id/HalfButton"
+		android:layout_marginLeft="213px" android:soundEffectsEnabled="false"
+		android:layout_marginTop="185px"></ImageButton>
+	<ImageButton android:background="@drawable/query"
+		android:id="@+id/CLosetQueryButton" android:layout_gravity="top|right"
+		android:layout_marginRight="136px" android:layout_height="85px"
+		android:layout_width="85px" android:soundEffectsEnabled="false"
+		android:layout_marginTop="187px"></ImageButton>
+	<ImageButton android:background="@drawable/item_up"
+		android:layout_gravity="top|right" android:id="@+id/AppliedItemUpButton"
+		android:soundEffectsEnabled="false" android:layout_height="30px"
+		android:layout_width="64px" android:layout_marginRight="15px"
+		android:visibility="gone" android:layout_marginTop="157px"></ImageButton>
+	<SurfaceView android:id="@+id/AppliedItemView"
+		android:layout_gravity="top|right" android:layout_width="77px"
+		android:layout_marginRight="9px" android:layout_height="383px"
+		android:layout_marginTop="204px"></SurfaceView>
+	<ImageButton android:background="@drawable/item_down"
+		android:layout_gravity="top|right" android:id="@+id/AppliedItemDownButton"
+		android:soundEffectsEnabled="false" android:layout_height="30px"
+		android:layout_width="64px" android:layout_marginRight="15px"
+		android:visibility="gone" android:layout_marginTop="604px"></ImageButton>
+	<com.miinu.FabLife.ViewComponent.ModelView
+		android:id="@+id/ModelView" android:layout_width="510px"
+		android:layout_gravity="top|center_horizontal"
+		android:layout_marginTop="234px" android:layout_height="786px"></com.miinu.FabLife.ViewComponent.ModelView>
+	<ImageButton android:background="@drawable/item_up"
+		android:layout_gravity="top|left" android:layout_height="43px"
+		android:layout_width="77px" android:layout_marginLeft="38px"
+		android:id="@+id/BuiedItemUpButton" android:soundEffectsEnabled="false"
+		android:visibility="gone" android:layout_marginTop="159px"></ImageButton>
+	<ListView android:scrollbars="none" android:layout_gravity="top|left"
+		android:id="@+id/ItemListView" android:layout_width="149px"
+		android:layout_height="744px"
+		android:layout_marginTop="210px"></ListView>
+	<ImageButton android:layout_height="43px"
+		android:layout_width="77px" android:layout_marginLeft="38px"
+		android:background="@drawable/item_down" android:layout_gravity="bottom|left"
+		android:id="@+id/BuiedItemDownButton" android:soundEffectsEnabled="false"
+		android:layout_marginBottom="11px" android:visibility="gone"></ImageButton>
+	<ImageButton android:background="@drawable/closet_clearall"
+		android:id="@+id/ClosetClearAllButton" android:layout_gravity="bottom|right"
+		android:layout_marginRight="9px" android:layout_height="77px"
+		android:layout_width="77px" android:layout_marginBottom="264px"
+		android:soundEffectsEnabled="false"></ImageButton>
+	<ImageButton android:layout_gravity="bottom|right"
+		android:layout_marginRight="9px" android:background="@drawable/closet_lookbook"
+		android:id="@+id/CLosetLookBookButton" android:layout_height="77px"
+		android:layout_width="77px" android:layout_marginBottom="179px"
+		android:soundEffectsEnabled="false"></ImageButton>
+	<ImageButton android:layout_gravity="bottom|right"
+		android:layout_marginRight="9px" android:background="@drawable/closet_save"
+		android:id="@+id/CLosetSaveButton" android:layout_height="77px"
+		android:layout_width="77px" android:layout_marginBottom="94px"
+		android:soundEffectsEnabled="false"></ImageButton>
+	<ImageButton android:background="@drawable/gohome_btn"
+		android:id="@+id/CLosetGoHomeButton" android:layout_gravity="bottom|right"
+		android:layout_marginRight="9px" android:layout_marginBottom="9px"
+		android:layout_height="77px" android:layout_width="77px"
+		android:soundEffectsEnabled="false"></ImageButton>
+	<ImageView android:background="@drawable/home_exclamation"
+		android:id="@+id/ClosetExclamationView" android:layout_gravity="bottom|left"
+		android:layout_marginLeft="170px" android:layout_height="64px"
+		android:layout_width="21px" android:visibility="gone"></ImageView>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:editable="false"
+		android:singleLine="true" android:textColor="@color/white"
+		android:textSize="34px" android:layout_gravity="bottom|left"
+		android:layout_marginLeft="213px" android:id="@+id/ClosetTaskView"
+		android:layout_marginBottom="9px" android:visibility="gone"></TextView>
+	<ImageView android:id="@+id/ImageView01" android:background="@drawable/closet_hint1"
+		android:layout_gravity="top|left" android:layout_width="378px"
+		android:layout_height="287px" android:layout_marginLeft="157px"
+		android:layout_marginTop="298px" android:visibility="gone"></ImageView>
+	<ImageView android:id="@+id/ImageButton01"
+		android:layout_gravity="top|left" android:layout_marginTop="504px"
+		android:layout_marginLeft="451px" android:layout_width="64px"
+		android:layout_height="60px" android:visibility="gone"></ImageView>
+	<ImageView android:id="@+id/ImageView02" android:background="@drawable/closet_hint2"
+		android:layout_gravity="top|left" android:layout_marginTop="595px"
+		android:layout_width="357px" android:layout_height="219px"
+		android:layout_marginLeft="166px" android:visibility="gone"></ImageView>
+	<ImageView android:id="@+id/ImageView03" android:background="@drawable/closet_hint3"
+		android:layout_gravity="top|left" android:layout_marginLeft="149px"
+		android:layout_width="414px" android:layout_height="295px"
+		android:layout_marginTop="595px" android:visibility="gone"></ImageView>
+	<ImageButton android:id="@+id/ImageButton02"
+		android:background="@drawable/closet_hint_ok2" android:layout_gravity="top|left"
+		android:layout_width="96px" android:layout_height="66px"
+		android:layout_marginTop="812px" android:layout_marginLeft="285px"
+		android:visibility="gone"></ImageButton>
+</FrameLayout>

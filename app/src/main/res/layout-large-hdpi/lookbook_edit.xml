@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/EditLayout" android:layout_width="600px"
+	android:layout_height="900px" android:layout_gravity="center">
+	<SurfaceView android:id="@+id/SurfaceView01"
+		android:layout_height="fill_parent" android:layout_width="fill_parent"></SurfaceView>
+	<ImageView android:layout_width="fill_parent"
+		android:layout_height="118px" android:background="@drawable/lookbook_normal_top"
+		android:id="@+id/EditBarView"></ImageView>
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:editable="false"
+		android:singleLine="true" android:layout_gravity="top|center_horizontal"
+		android:layout_marginTop="19px" android:id="@+id/EditTitleView"
+		android:textColor="@color/white" android:textSize="30px"
+		android:textScaleX="0.8"></TextView>
+	<EditText android:layout_gravity="top|center_horizontal"
+		android:background="@android:drawable/editbox_background"
+		android:layout_width="375px" android:gravity="center"
+		android:singleLine="true" android:id="@+id/EditCaptionEdit"
+		android:textColor="@color/black" android:layout_height="56px"
+		android:layout_marginTop="56px" android:visibility="gone"
+		android:maxLength="20" android:textSize="26px" android:textScaleX="0.8"></EditText>
+	<TextView android:editable="false" android:singleLine="true"
+		android:layout_gravity="top|center_horizontal" android:layout_width="375px"
+		android:layout_marginTop="56px" android:gravity="center" android:id="@+id/EditCaptionView"
+		android:textColor="@color/white" android:layout_height="56px"
+		android:textSize="26px" android:textScaleX="0.8"></TextView>
+	<ImageButton android:background="@drawable/editcaptionicon"
+		android:id="@+id/EditCaptionButton" android:layout_gravity="top|right"
+		android:layout_height="75px" android:layout_width="150px"
+		android:layout_marginTop="19px" android:soundEffectsEnabled="false"></ImageButton>
+	<ImageButton android:background="@drawable/locked"
+		android:id="@+id/EditLockedButton" android:layout_gravity="top|left"
+		android:layout_marginLeft="19px"
+		android:soundEffectsEnabled="false" android:layout_width="51px" android:layout_height="51px" android:layout_marginTop="159px" android:visibility="gone"></ImageButton>
+	<ImageButton android:background="@drawable/lookbook_unlock"
+		android:id="@+id/EditUnlockButton" android:layout_gravity="top|right"
+		android:layout_height="56px" android:layout_marginTop="158px" android:layout_marginRight="8px"
+		android:soundEffectsEnabled="false" android:layout_width="158px" android:visibility="gone"></ImageButton>
+	<com.miinu.FabLife.ViewComponent.ModelView
+		android:id="@+id/EditModelView" android:layout_height="713px"
+		android:layout_marginTop="169px" android:layout_gravity="top|center_horizontal"
+		android:layout_width="450px"></com.miinu.FabLife.ViewComponent.ModelView>
+	<ImageButton android:background="@drawable/shop_prev"
+		android:id="@+id/EditPrevButton" android:layout_gravity="top|left"
+		android:layout_marginLeft="8px" android:layout_marginTop="488px"
+		android:soundEffectsEnabled="false" android:layout_width="30px" android:layout_height="49px"></ImageButton>
+	<ImageButton android:background="@drawable/shop_next"
+		android:layout_gravity="top|right" android:layout_marginRight="8px"
+		android:id="@+id/EditNextButton" android:layout_marginTop="488px"
+		android:soundEffectsEnabled="false" android:layout_height="49px" android:layout_width="30px"></ImageButton>
+	<ImageButton android:id="@+id/EditBackButton"
+		android:layout_marginLeft="8px" android:layout_gravity="bottom|left"
+		android:layout_marginBottom="8px" android:background="@drawable/back"
+		android:soundEffectsEnabled="false" android:layout_width="68px" android:layout_height="73px"></ImageButton>
+	<ImageButton android:background="@drawable/lookbook_save"
+		android:id="@+id/EditSaveButton" android:layout_gravity="bottom|right"
+		android:layout_marginRight="8px" android:layout_marginBottom="8px"
+		android:soundEffectsEnabled="false" android:layout_width="71px" android:layout_height="73px"></ImageButton>
+</FrameLayout>

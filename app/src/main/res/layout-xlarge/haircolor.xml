@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout android:id="@+id/FrameLayout01"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="800px" android:layout_gravity="center" android:layout_height="1200px">
+	<ImageView android:background="@color/hair_bg"
+		android:layout_height="650px" android:layout_gravity="top|center_horizontal"
+		android:layout_width="600px" android:id="@+id/BoxBgView" android:layout_marginTop="375px"></ImageView>
+	<ImageButton android:layout_width="45px" android:layout_height="45px" android:background="@drawable/lookbook_delete_button" android:id="@+id/ExitButton" android:layout_gravity="top|right" android:layout_marginRight="125px" android:layout_marginTop="400px" android:soundEffectsEnabled="false"></ImageButton><ImageButton android:background="@drawable/haircolor_1"
+		android:layout_gravity="top|left" android:layout_width="200px" android:layout_marginLeft="150px" android:id="@+id/Color1Button" android:layout_height="100px" android:layout_marginTop="475px" android:soundEffectsEnabled="false"></ImageButton>
+	<ImageButton android:layout_width="200px" android:layout_gravity="top|right" android:layout_marginRight="150px" android:id="@+id/Color2Button" android:background="@drawable/haircolor_2" android:layout_height="100px" android:layout_marginTop="475px" android:soundEffectsEnabled="false"></ImageButton>
+	<ImageButton android:layout_gravity="top|left"
+		android:layout_width="200px"
+		android:layout_marginLeft="150px" android:background="@drawable/haircolor_3"
+		android:id="@+id/Color3Button" android:layout_height="100px" android:layout_marginTop="600px" android:soundEffectsEnabled="false"></ImageButton>
+	<ImageButton android:layout_width="200px" android:layout_gravity="top|right"
+		android:layout_marginRight="150px" android:id="@+id/Color4Button" android:background="@drawable/haircolor_4" android:layout_height="100px" android:layout_marginTop="600px" android:soundEffectsEnabled="false"></ImageButton>
+	<ImageButton android:layout_gravity="top|left" android:layout_width="200px" android:layout_marginLeft="150px" android:background="@drawable/haircolor_5" android:id="@+id/Color5Button" android:layout_height="100px" android:layout_marginTop="725px" android:soundEffectsEnabled="false"></ImageButton>
+	<ImageButton android:layout_width="200px" android:layout_gravity="top|right" android:layout_marginRight="150px" android:background="@drawable/haircolor_6" android:id="@+id/Color6Button" android:layout_height="100px" android:layout_marginTop="725px" android:soundEffectsEnabled="false"></ImageButton>
+	<ImageButton android:layout_gravity="top|left" android:layout_width="200px" android:layout_marginLeft="150px" android:background="@drawable/haircolor_7" android:id="@+id/Color7Button" android:layout_height="100px" android:layout_marginTop="850px" android:soundEffectsEnabled="false"></ImageButton>
+	<ImageButton android:layout_width="200px" android:layout_gravity="top|right" android:layout_marginRight="150px" android:id="@+id/Color8Button" android:background="@drawable/haircolor_8" android:layout_height="100px" android:layout_marginTop="850px" android:soundEffectsEnabled="false"></ImageButton>
+
+</FrameLayout>

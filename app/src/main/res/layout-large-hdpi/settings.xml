@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_gravity="center" android:layout_height="900px"
+	android:layout_width="600px">
+	<FrameLayout android:layoutAnimation="@anim/layout_animation_top_to_bottom"
+		android:animationCache="false" android:layout_width="563px"
+		android:background="@drawable/setting_bg" android:layout_height="563px"
+		android:layout_gravity="top|center_horizontal"
+		android:layout_marginTop="225px">
+		<ImageView android:background="@drawable/setting_title"
+			android:layout_gravity="top|center_horizontal" android:layout_width="300px"
+			android:id="@+id/SettingTitleView" android:layout_height="75px"
+			android:layout_marginTop="56px"></ImageView>
+		<ImageButton android:background="@drawable/exit"
+			android:layout_height="38px" android:layout_width="38px"
+			android:layout_gravity="top|right" android:layout_marginTop="19px"
+			android:layout_marginRight="26px" android:id="@+id/SettingExitButton" android:soundEffectsEnabled="false"></ImageButton>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/setting_music"
+			android:textColor="@color/white" android:editable="false"
+			android:singleLine="true" android:layout_gravity="top|left"
+			android:textSize="45px" android:layout_marginLeft="38px"
+			android:id="@+id/SettingMusicLabel" android:layout_marginTop="263px"></TextView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="@color/white"
+			android:editable="false" android:singleLine="true"
+			android:layout_gravity="top|left" android:text="@string/setting_effect"
+			android:textSize="45px" android:layout_marginLeft="38px"
+			android:id="@+id/SettingEffectLabel" android:layout_marginTop="375px"></TextView>
+		<ImageButton android:background="@drawable/on" android:id="@+id/SettingMusicButton"
+			android:layout_gravity="top|right" android:layout_height="56px"
+			android:layout_width="113px" android:layout_marginRight="56px"
+			android:layout_marginTop="248px" android:soundEffectsEnabled="false"></ImageButton>
+		<ImageButton android:id="@+id/SettingEffectButton"
+			android:background="@drawable/on" android:layout_gravity="top|right"
+			android:layout_width="113px" android:layout_height="56px"
+			android:layout_marginRight="56px" android:layout_marginTop="360px" android:soundEffectsEnabled="false"></ImageButton>
+	</FrameLayout>
+</FrameLayout>
